@@ -1,0 +1,66 @@
+a:link    {color:#000000; background-color:transparent; text-decoration:none}
+a:visited {color:#000000; background-color:transparent; text-decoration:none}
+a:hover   {color:#000000; background-color:transparent; text-decoration:none}
+a:active  {color:#000000; background-color:transparent; text-decoration:none}
+
+body{ margin:0px 0px; 
+background: white;
+font-family: "Arial";
+
+}
+
+
+#tlhead{
+  /*background-image:url(https://chrisaam.files.wordpress.com/2015/03/wallpaper-2846361.jpg);*/
+  background-size:cover;
+  position:relative;
+  height:100vh;
+}
+
+#tlhead h1{
+	font-size: 150px;
+	margin-bottom: 1px
+}
+
+.header{
+	font-family: "Arial";
+font-size: 30px;
+  position:absolute;
+  top:50%;
+  text-align:center;
+  width:100%;
+  color:black;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+   	-webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);  
+
+}
+
+#content{
+  padding:100px 50px;
+  font-size: 30px;
+  text-align:center;
+  width:80%;
+  margin:0px auto;
+}
+
+
+#bibtex_display{
+  padding:100px 50px;
+  font-size: 30px;
+  text-align:center;
+  width:80%;
+  margin:10px auto;
+  margin-bottom: 10px
+}
+
+#content h2{
+  margin:0px 0px 30px 0px;
+}
+
+#footer{
+  padding:30px 0px;
+ 
+  text-align:center;
+  background:white;
+}
