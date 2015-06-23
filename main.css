@@ -36,6 +36,18 @@ font-size: 35px;
 
 }
 
+
+#contentBox {
+    margin: 5px;
+    width: 100%;
+}
+
+#contentBox .column {
+    float: left;
+    margin: 5px;
+    width: 500;
+}
+
 #content{
   padding:100px 50px;
   font-size: 30px;
