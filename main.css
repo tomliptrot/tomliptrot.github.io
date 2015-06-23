@@ -24,7 +24,7 @@ font-family: "Arial";
 
 .header{
 	font-family: "Arial";
-font-size: 30px;
+font-size: 35px;
   position:absolute;
   top:50%;
   text-align:center;
@@ -44,10 +44,34 @@ font-size: 30px;
   margin:0px auto;
 }
 
+#apps{
+  padding:100px 50px;
+  font-size: 30px;
+  text-align:center;
+  width:80%;
+  margin:0px auto;
+}
+
+#publications{
+  padding:100px 50px;
+  font-size: 30px;
+  text-align:center;
+  width:80%;
+  margin:0px auto;
+}
+
+#talks{
+  padding:100px 50px;
+  font-size: 30px;
+  text-align:center;
+  width:80%;
+  margin:0px auto;
+}
+
 
 #bibtex_display{
   padding:100px 50px;
-  font-size: 30px;
+  font-size: 20px;
   text-align:center;
   width:80%;
   margin:10px auto;
