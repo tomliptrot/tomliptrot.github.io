@@ -42,12 +42,13 @@ font-size: 35px;
   padding:100px 50px;
   font-size: 20px;
   text-align:left;
-  width:80%;
+  width:75%;
   margin:0px auto;
   }
   
  .content a{color:#000000; background-color:transparent}
  .content a:visited {color:#333333; background-color:transparent; text-decoration:none}
+ .content a:hover   {color:#000000; background-color:#F0F0F0 ; text-decoration: underline}
  
  .content h2{
     text-align: left;
@@ -59,48 +60,16 @@ font-size: 35px;
     margin: 10px;
     border: 1px solid #ffffff;
 }
-/* 
-#content{
-  padding:100px 50px;
-  font-size: 30px;
-  text-align:left;
-  width:80%;
-  margin:0px auto;
-}
 
-#apps{
-  padding:100px 50px;
-  font-size: 30px;
-  text-align:center;
-  width:80%;
-  margin:0px auto;
-}
-
-#publications{
-  padding:100px 50px;
-  font-size: 30px;
-  text-align:center;
-  width:80%;
-  margin:0px auto;
-}
-
-#talks{
-  padding:100px 50px;
-  font-size: 30px;
-  text-align:center;
-  width:80%;
-  margin:0px auto;
-} */
-
-
-#bibtex_display{
+/* #bibtex_display{
   padding:100px 50px;
   font-size: 20px;
-  text-align:center;
-  width:80%;
+  text-align:left;
+  width:75%;
   margin:10px auto;
   margin-bottom: 10px
-}
+} */
+
 
 #content h2{
   margin:0px 0px 30px 0px;
