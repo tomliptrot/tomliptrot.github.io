@@ -3,7 +3,7 @@
  <head>
  <title>Tom Liptrot</title>
  
-<meta name="description" content="I am a data scientist working at the Christie Hospital in Manchester. My work in involves finding ways to use large amounts of data to improve patient care. I provide statistical modelling support to clinicians conducting clinical cancer research.">
+<meta name="description" content="I am a statistician working at the Christie Hospital in Manchester. My work in involves finding ways to use large amounts of data to improve patient care. I provide statistical modelling support to clinicians conducting clinical cancer research.">
 
 <link rel="stylesheet" type="text/css" href="main.css"><!-- SMOOTH SCROLL -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -38,6 +38,24 @@ $(function() {
   ga('send', 'pageview');
 
 </script>
+<!-- 
+<script>
+/* Dynamic top menu positioning
+ *
+ */
+
+var num = 50; //number of pixels before modifying styles
+
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > num) {
+        $('.header').addClass('fixed');
+    } else {
+        $('.header').removeClass('fixed');
+    }
+});
+
+//USE SCROLL WHEEL FOR THIS FIDDLE DEMO
+</script> -->
 
 </head>
 
@@ -45,12 +63,14 @@ $(function() {
 	 <div id="tlhead">
     <div class="header">
       <h1> Tom Liptrot </h1>
+	  <div>
 	  <p>  
 		<a href="#about">About</a> | 
 		<a href="#apps">Apps</a> |
 		<a href="#publications">Publications</a> |
 		<a href="#talks">Talks</a> 
 		</p>
+		</div>
     </div>
 	</div>
 	
@@ -59,7 +79,7 @@ $(function() {
    <div class="content">
     <h2> About me</h2>
 	
-    <p><img src="http://www.earl-conference.com/_London/Speakers/images/tom_liptrot.jpg" width="150" height="150" align="left">I am a data scientist working at the Christie Hospital in Manchester. The Christie is one of Europe's largest specialist cancer hospitals. My work in involves finding ways to use large amounts of data to improve patient care. I provide statistical modelling support to clinicians conducting clinical cancer research. My interests lie in the analysis of large complex datasets and I am conducting research into text-mining of electronic patient records collaborating with <a href="http://www.cs.manchester.ac.uk/">Manchester University</a>. Techniques I use include elastic net regularised regression, Bayesian hierarchical modelling, GAMs, GLMs  and parametric and non-parametric survival modelling.  I use the <a href="http://www.r-project.org/" target="tab">R programming language</a> for most of my analysis. 
+    <p><img src="http://www.earl-conference.com/_London/Speakers/images/tom_liptrot.jpg" width="150" height="150" align="left">I am a Data Scientist working at the Christie Hospital in Manchester. The Christie is one of Europe's largest specialist cancer hospitals. My work in involves finding ways to use large amounts of data to improve patient care. I provide statistical modelling support to clinicians conducting clinical cancer research. My interests lie in the analysis of large complex datasets and I am conducting research into text-mining of electronic patient records collaborating with <a href="http://www.cs.manchester.ac.uk/">Manchester University</a>. Techniques I use include elastic net regularised regression, Bayesian hierarchical modelling, GAMs, GLMs  and parametric and non-parametric survival modelling.  I use the <a href="http://www.r-project.org/" target="tab">R programming language</a> for most of my analysis. 
 	
 	<p>I have made some <a href="#apps">shiny apps</a>, I have <a href="#publications">published some papers</a> and I have <a href="#talks">given some talks</a>.</p>
 	
@@ -77,15 +97,44 @@ $(function() {
    <div class="content">
 	<h2> Shiny Applications</h2>
 	<p><a href = 'http://shiny.rstudio.com/' target="_blank">Shiny</a> is a web application framework for R. It allows users to quickly create interactive web applications based on analysis done in R. I have created a couple of publicly available shiny apps and an R package that makes it even more simple to create predictive shiny apps.</p>
-	<h3><a href="https://tomliptrot.shinyapps.io/international_jobs" target="_blank">International Jobs</a> </h3>
-	<p>This app is for finding a job anywhere in the world. It connects to the <a href = 'http://www.indeed.co.uk/jsp/apiinfo.jsp'>Indeed API</a> and searches all 54 international indeed websites, returning the results on a map of the world</p>
 	
-	<h3><a href="https://tomliptrot.shinyapps.io/IL2_response">IL2 Response</a> </h3>
-	<p>This app is for predicting patient response to the kidney cancer drug <a href ='http://www.cancerresearchuk.org/about-cancer/cancers-in-general/treatment/cancer-drugs/aldesleukin-or-il2' target="_blank">IL-2</a>It is still fairly experimental at this stage.</p>
+	<!-- TODO: make all images same shape -->
+	<div class="container">
+	
+   <div class="column-center">
+   
+   <h3>International Jobs</h3>
+   <a href="https://tomliptrot.shinyapps.io/international_jobs">
+   <img src="jobs_app.jpg" alt="International Jobs app" width="95%" /></a>
+   
+		<p>This app is for finding a job anywhere in the world. It connects to the <a href = 'http://www.indeed.co.uk/jsp/apiinfo.jsp'>Indeed API</a> and searches all 54 international indeed websites, returning the results on a map of the world</p>
+   </div>
+   
+   
+   <div class="column-left">
+   <h3>IL2 Response </h3>
+   
+      <a href="https://tomliptrot.shinyapps.io/IL2_response">
+   <img src="il2app.jpg" alt="IL2 app" width="95%" /></a>
+   
+	<p>This app is for predicting patient response to the kidney cancer drug <a href ='http://www.cancerresearchuk.org/about-cancer/cancers-in-general/treatment/cancer-drugs/aldesleukin-or-il2' target="_blank">IL-2. </a>It is still fairly experimental at this stage.</p>
 
-	<h3><a href="https://github.com/tomliptrot/predictshine">predictshine</a> </h3>
+   </div>
+   
+   
+   
+   
+   <div class="column-right">
+   <h3>predictshine</h3>
+   
+   <a href="https://github.com/tomliptrot/predictshine">
+   <img src="lm_predictshine.JPG" alt="IL2 app" width="95%" /></a>
+   
 	<p>This is an R package that allows users to create interactive shiny based web-apps to make predictions about individuals. its main function predictshine() works similarly to the predict() function. First the user creates a statistical model, then calls predictshine() to bring up a browser based interface to predict the dependent variable based user entered changes to the independent variables. This app can the be shared with anyone via the web.
 	</p>
+   </div>
+</div>
+
 	<a href="#tlhead">Top</a> 
   </div>
     </div>
