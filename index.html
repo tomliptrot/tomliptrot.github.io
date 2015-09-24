@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="generator"
-    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
     <title>Tom Liptrot</title>
     <meta name="description"
     content="I am a statistician working at the Christie Hospital in Manchester. My work in involves finding ways to use large amounts of data to improve patient care. I provide statistical modelling support to clinicians conducting clinical cancer research." />
     <link rel="stylesheet" type="text/css" href="main.css" />
     <!-- SMOOTH SCROLL -->
+	<!-- from https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
-$(function() {
-  $(&amp;#39;a[href*=#]:not([href=#])&amp;#39;).click(function() {
-    if (location.pathname.replace(/^\//,&amp;#39;&amp;#39;) == this.pathname.replace(/^\//,&amp;#39;&amp;#39;) &amp;amp;&amp;amp;
-location.hostname ==
-this.hostname) {
+    <script>$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
-      target = target.length ? target : $(&amp;#39;[name=&amp;#39; + this.hash.slice(1) +&amp;#39;]&amp;#39;);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
-        $(&amp;#39;html,body&amp;#39;).animate({
+        $('html,body').animate({
           scrollTop: target.offset().top
         }, 1000);
         return false;
