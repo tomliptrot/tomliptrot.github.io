@@ -26,7 +26,8 @@ padding-bottom: 1000px
 
 
 .header{
-	font-family: "Arial";
+	font-family: "Arial"; 
+
 font-size: 35px;
   position:absolute;
   top:50%;
@@ -41,11 +42,13 @@ font-size: 35px;
 }
 
 .content{
+font-family: SwiftNeueLTW01,Georgia,serif;
   padding:25px 50px 125px;
   font-size: 20px;
   text-align:left;
   width:75%;
   margin:5px 50px 75px 100px; 
+  line-height: 1.5;
   }
   
  .content a{color:#000000; background-color:transparent}
@@ -53,6 +56,7 @@ font-size: 35px;
  .content a:hover   {color:#000000; background-color:#F0F0F0 ; text-decoration: underline}
  
  .content h2{
+ font-family: "Arial"; 
     text-align: left;
 }
 
@@ -88,6 +92,7 @@ font-size: 35px;
 
 
 #content h2{
+font-family: "Arial"; 
   margin:0px 0px 30px 0px;
 }
 
