@@ -79,53 +79,61 @@
           <a href="https://github.com/tomliptrot" target="tab">Github</a> and 
           <a href="http://uk.linkedin.com/in/tomliptrot1" target="tab">Linkedin</a></p>
           	
-<a href="#tlhead" class="top-link">
-<img border="0" alt="top" src="images/top.png" >
-</a>
+
 
 
         </div>
+<a href="#tlhead" class="top-link">
+<img border="0" alt="top" src="images/top.png" >
+</a>
       </div>
       <div id="apps">
         <div class="content">
           <h2>Shiny Applications</h2>
           <p>
-          <a href='http://shiny.rstudio.com/' target="_blank">Shiny</a> is a web application framework for R. It allows users to
+          <a href='http://shiny.rstudio.com/' target="_blank" >Shiny</a> is a web application framework for R. It allows users to
           quickly create interactive web applications based on analysis done in R. I have created a couple of publicly available
           shiny apps and an R package that makes it even more simple to create predictive shiny apps.</p>
           <!-- TODO: make all images same shape -->
+
           <div class="container">
             <div class="column-center">
               <h3>International Jobs</h3>
-              <a href="https://tomliptrot.shinyapps.io/international_jobs">
-                <img src="images/jobs_app.jpg" alt="International Jobs app" width="95%" />
+              <a href="https://tomliptrot.shinyapps.io/international_jobs" >
+                <img  class="img-circle" src="images/jobs_app.jpg" alt="International Jobs app" width="95%" />
               </a>
               <p>This app is for finding a job anywhere in the world. It connects to the 
               <a href='http://www.indeed.co.uk/jsp/apiinfo.jsp'>Indeed API</a> and searches all 54 international indeed websites,
               returning the results on a map of the world</p>
             </div>
+
+
+
             <div class="column-left">
               <h3>IL2 Response</h3>
               <a href="https://christie.shinyapps.io/high_dose_interleukin_2/">
-                <img src="images/il2app.jpg" alt="IL2 app" width="95%" />
+                <img class="img-circle" src="images/il2app.jpg" alt="IL2 app" width="95%" />
               </a>
               <p>This app is for predicting patient response to the kidney cancer drug 
               <a href='http://www.cancerresearchuk.org/about-cancer/cancers-in-general/treatment/cancer-drugs/aldesleukin-or-il2'
               target="_blank">IL-2.</a> It is still fairly experimental at this stage.</p>
             </div>
             <div class="column-right">
+
+
               <h3>predictshine</h3>
               <a href="https://github.com/tomliptrot/predictshine">
-                <img src="images/lm_predictshine.JPG" alt="IL2 app" width="95%" />
+                <img  class="img-circle" src="images/lm_predictshine.JPG" alt="predictshine" width="95%" /></img>
               </a>
               <p>This is an R package that allows users to create interactive shiny based web-apps to make predictions about
               individuals. its main function predictshine() works similarly to the predict() function. </p>
             </div>
           </div>
-    <a href="#tlhead" class="top-link">
+ 
+        </div>
+   <a href="#tlhead" class="top-link">
 <img border="0" alt="top" src="images/top.png" >
 </a>
-        </div>
       </div>
       <!--   <div class="bibtex_template">
 <div class="if author" style="color:black; margin-bottom: 20px">
@@ -157,10 +165,11 @@
           <!-- <u><a href="#tlhead">Top</a> </u> -->
           <!-- <div id="bibtex_display">
 </div> -->
+
+        </div>
   <a href="#tlhead" class="top-link">
 <img border="0" alt="top" src="images/top.png" >
 </a>
-        </div>
       </div>
       <div id="talks">
         <div class="content">
@@ -180,10 +189,11 @@
 		 <p> &mdash; <a href='talks/earl_text_mining_16_9_2015.pdf'>pdf of slides</a></p>
 		  
           <br />
+
+        </div>
  <a href="#tlhead" class="top-link">
 <img border="0" alt="top" src="images/top.png" >
 </a>
-        </div>
       </div>
     </div>
 	
