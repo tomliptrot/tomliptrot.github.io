@@ -64,6 +64,14 @@ font-family: SwiftNeueLTW01,Georgia,serif;
     text-align: left;
 }
 
+ .content h3{
+ font-family: "Arial"; 
+   
+}
+
+p.code {
+    font-family: "Courier New";
+}
 
 .content  img {
     display: inline;

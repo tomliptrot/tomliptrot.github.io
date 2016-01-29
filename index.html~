@@ -30,13 +30,13 @@
     <script type="text/javascript" src="http://bibtex-js.googlecode.com/svn/trunk/src/bibtex_js.js"></script>
     <!-- Google Analytics -->
     <script>
-  (function(i,s,o,g,r,a,m){i[&amp;#39;GoogleAnalyticsObject&amp;#39;]=r;i[r]=i[r]||function(){
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,&amp;#39;script&amp;#39;,&amp;#39;//www.google-analytics.com/analytics.js&amp;#39;,&amp;#39;ga&amp;#39;);
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga(&amp;#39;create&amp;#39;, &amp;#39;UA-65178181-1&amp;#39;, &amp;#39;auto&amp;#39;);
-  ga(&amp;#39;send&amp;#39;, &amp;#39;pageview&amp;#39;);
+  ga('create', 'UA-65178181-1', 'auto');
+  ga('send', 'pageview');
 
 </script>
   </head>
@@ -96,9 +96,20 @@
           shiny apps and an R package that makes it even more simple to create predictive shiny apps.</p>
           <!-- TODO: make all images same shape -->
 
+
+            <div class="column-left">
+              <h3>Drug reponse</h3>
+              <a href="https://christie.shinyapps.io/high_dose_interleukin_2/">
+                <img class="img-circle" src="images/il2app.jpg" alt="IL2 app" width="95%" />
+              </a>
+              <p>This app is for predicting patient response to the kidney cancer drug 
+              <a href='http://www.cancerresearchuk.org/about-cancer/cancers-in-general/treatment/cancer-drugs/aldesleukin-or-il2'
+              target="_blank">IL-2.</a> It is based on data from 145 metastatic renal cell carcinoma patients.</p>
+            </div>
+
           <div class="container">
             <div class="column-center">
-              <h3>International Jobs</h3>
+              <h3>Job Search</h3>
               <a href="https://tomliptrot.shinyapps.io/international_jobs" >
                 <img  class="img-circle" src="images/jobs_app.jpg" alt="International Jobs app" width="95%" />
               </a>
@@ -109,19 +120,11 @@
 
 
 
-            <div class="column-left">
-              <h3>IL2 Response</h3>
-              <a href="https://christie.shinyapps.io/high_dose_interleukin_2/">
-                <img class="img-circle" src="images/il2app.jpg" alt="IL2 app" width="95%" />
-              </a>
-              <p>This app is for predicting patient response to the kidney cancer drug 
-              <a href='http://www.cancerresearchuk.org/about-cancer/cancers-in-general/treatment/cancer-drugs/aldesleukin-or-il2'
-              target="_blank">IL-2.</a> It is still fairly experimental at this stage.</p>
-            </div>
+
             <div class="column-right">
 
 
-              <h3>predictshine</h3>
+              <h3>R Package</h3>
               <a href="https://github.com/tomliptrot/predictshine">
                 <img  class="img-circle" src="images/lm_predictshine.JPG" alt="predictshine" width="95%" /></img>
               </a>
