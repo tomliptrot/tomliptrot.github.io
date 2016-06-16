@@ -8,29 +8,32 @@
     content="I am a data scientist working at the Christie Hospital in Manchester.
 	My work in involves finding ways to use large amounts of data to improve patient care." />
     <link rel="stylesheet" type="text/css" href="main.css" />
+	
     <!-- SMOOTH SCROLL -->
 	<!-- from https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
+		  $('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			  var target = $(this.hash);
+			  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			  if (target.length) {
+				$('html,body').animate({
+				  scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			  }
+			}
+		  });
+		});
+	</script>
     <!-- End of SMOOTH SCROLL -->
+	
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://bibtex-js.googlecode.com/svn/trunk/src/bibtex_js.js"></script>
-    <!-- Google Analytics -->
-    <script>
+  
+  <!-- Google Analytics -->
+  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -39,7 +42,7 @@
   ga('create', 'UA-65178181-1', 'auto');
   ga('send', 'pageview');
 
-</script>
+  </script>
   </head>
   
   <body>
@@ -179,6 +182,16 @@
       <div id="talks">
         <div class="content">
           <h2>Talks</h2>
+<p>
+            <h3>Machine learning can predict neutropenic sepsis in chemotherapy patients</h3>
+          </p>
+          <p> &mdash; A presentation about a machine-learning algorithm that uses routinely collected clinical data to accurately predict which chemotherapy patients will get neutropenic sepsis. Delivered at 
+		  <a href = 'https://www.phe-events.org.uk/hpa/frontend/reg/thome.csp?pageID=215190&ef_sel_menu=1929&eventID=552&eventID=552'> Cancer Data and Outcomes Conference</a>. June 2016.</p>
+		  <p> &mdash; <a href='talks/machine_learning_sepsis_14_6_2016.pdf'>pdf of slides</a> </p>
+		  <p> &mdash; <a href='https://www.phe-events.org.uk/hpa/frontend/reg/absViewDocumentFE.csp?documentID=9919'>
+			Abstract in conference programme</a> </p>
+          <p>
+
 		  <p>
             <h3>Machine Learning in R: Supervised Classifciation</h3>
           </p>
