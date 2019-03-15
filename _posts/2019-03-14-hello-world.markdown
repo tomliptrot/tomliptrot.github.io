@@ -6,4 +6,4 @@ categories: data-science 
 ---
 Data Science is the application of scientific method and mathematical tools to business data.
 
-# 
+#

@@ -4,4 +4,5 @@ title: Contact
 permalink: /contact/
 ---
 
-How to get in touch
+Email: tom@ortom.co.uk
+Telephone: 07815660487
