@@ -1,7 +1,4 @@
----
----
 
-@import "{{ site.theme }}";
 ul.share-buttons{
   list-style: none;
   padding: 0;

@@ -3,6 +3,7 @@ layout: post
 title: "Welcome to Ortom"
 date:  2019-03-15 09:33:52
 categories:
+description: welcome to the site
 ---
 
 [Basic syntax help for Markdown](http://daringfireball.net/projects/markdown/basics)
