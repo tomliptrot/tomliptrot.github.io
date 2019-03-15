@@ -20,3 +20,8 @@ experience across a range of sectors.
 
 *If you got a problem, yo! i'll solve it*
 
+<br>
+<br>
+
+<div class="just-comments" data-apikey="6594015a-feeb-4c74-b3e3-31629308721d"></div>
+<script async src="https://just-comments.com/w.js"></script>

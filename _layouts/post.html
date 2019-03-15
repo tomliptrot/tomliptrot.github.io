@@ -23,5 +23,16 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
+<ul class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fortom.co.uk&text=:%20http%3A%2F%2Fortom.co.uk&via=tom_liptrot"
+    target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img alt="Tweet" src="/assets/images/simple_icons_black/Twitter.png" /></a>
+  <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fortom.co.uk&title=&summary=&source=http%3A%2F%2Fortom.co.uk" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Share on LinkedIn" src="/assets/images/simple_icons_black/LinkedIn.png" /></a>
+  <a href="mailto:?subject=&body=:%20http%3A%2F%2Fortom.co.uk" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img alt="Send email" src="/assets/images/simple_icons_black/Email.png" /></a>
+</ul>
+
+
+  <div class="just-comments" data-apikey="6594015a-feeb-4c74-b3e3-31629308721d"></div>
+  <script async src="https://just-comments.com/w.js"></script>
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
