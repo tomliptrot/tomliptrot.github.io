@@ -3,55 +3,12 @@ layout: post
 title: "Welcome to Ortom"
 date:  2019-03-15 09:33:52
 categories:
-description: welcome to the site
+description: Welcome to the site
 ---
+I've set up Ortom with the goal of providing high quality data science services to any organisation. At the moment it's just me. I've been doing data science for the last 10 years in one way or another, most recently as head of data science at [Peak](https://www.peak.ai). I will offer a three main services:
 
-[Basic syntax help for Markdown](http://daringfireball.net/projects/markdown/basics)
+- Consulting - advising on data science and AI strategy and related topics
+- Contract work - Working on 3 - 6 month projects
+- Training & Recruitment - I can help you to develop your existing data science staff or help you hire new ones.
 
-A First Level Header
-====================
-
-A Second Level Header
----------------------
-
-Now is the time for all good men to come to
-the aid of their country. This is just a
-regular paragraph.
-
-Some of these words *are emphasized*.
-Some of these words _are emphasized also_.
-
-Use two asterisks for **strong emphasis**.
-Or, if you prefer, __use two underscores instead__.
-
-### Header 3
-
-> This is a blockquote.
->
-> This is the second paragraph in the blockquote.
->
-> ## This is an H2 in a blockquote
-
-
-*   Dandy.
-*   Gum.
-
-1.  Red
-2.  Green
-3.  Blue
-
-This is an [example link](http://example.com/).
-
-
-[1]: http://google.com/        "Google"
-[2]: http://search.yahoo.com/  "Yahoo Search"
-[3]: http://search.msn.com/    "MSN Search"
-
-To highlight:
-
-{% highlight text linenos %}
-some text to be syntax highlighted....
-{% endhighlight %}
-
-
-![alt text](/path/to/img.jpg "Title")
+I plan to use this space to post regular articles on data science, machine learning, artificial intelligence, statistics, philosophy of  mind; and one or two other related areas.
