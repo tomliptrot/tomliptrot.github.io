@@ -4,7 +4,8 @@
 
 layout: home
 ---
-![Ortom](/assets/images/ortom/Ortom logo transparent1.png){: .center-image }
+{: .center}
+![Ortom](/assets/images/ortom/Ortom logo transparent1.png)
 
 Welcome! I've set up Ortom with the goal of providing high quality data science services to any organisation. At the moment the company is just me, Tom Liptrot providing data science services in the UK. I've been doing data science for the last 10 years in one way or another, most recently as head of data science at [Peak](https://www.peak.ai).
 

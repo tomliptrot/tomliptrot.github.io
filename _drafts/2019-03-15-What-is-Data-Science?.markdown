@@ -8,7 +8,8 @@ categories:
 
 I am a data scientist, and as not everybody  knows what that it, I thought  it  would be useful to write a post clearing things up. It is still a relatively new discipline and is rapidly evolving. There is some confusion over what exactly it is and normally these discussions are kicked off with at least one Venn diagram like the one below:
 
-![DS Venn Diagram](https://static1.squarespace.com/static/5150aec6e4b0e340ec52710a/t/51525c33e4b0b3e0d10f77ab/1364352052403/Data_Science_VD.png){: .center-image }
+{: .center}
+![DS Venn Diagram](https://static1.squarespace.com/static/5150aec6e4b0e340ec52710a/t/51525c33e4b0b3e0d10f77ab/1364352052403/Data_Science_VD.png)
 
 ### History
 
