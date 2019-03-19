@@ -1,0 +1,11 @@
+docs_list_title: Main Pages
+docs:
+
+- title: About
+  url: /about
+
+- title: Blog
+  url: /blog
+
+- title: Services
+  url: /services

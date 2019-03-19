@@ -5,7 +5,9 @@ date:  2019-03-15 09:33:52
 categories:
 description: Welcome to the site
 ---
-I've set up Ortom with the goal of providing high quality data science services to any organisation. At the moment it's just me. I've been doing data science for the last 10 years in one way or another, most recently as head of data science at [Peak](https://www.peak.ai). I will offer a three main services:
+I've set up Ortom with the goal of providing high quality data science services to any organisation. At the moment it's just me. I've been doing data science for the last 10 years in one way or another, most recently as head of data science at [Peak](https://www.peak.ai).
+
+I will offer a three main [services](/services):
 
 - Consulting - advising on data science and AI strategy and related topics
 - Contract work - Working on 3 - 6 month projects

@@ -1,0 +1,63 @@
+---
+---
+
+ @import "minima";
+
+ img.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /* Half the height */
+    margin-left: -250px; /* Half the width */
+ }
+
+// .center {
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 80%;
+// }
+
+ #logo html, body
+ {
+     height: 100%;
+     margin:0;
+     padding:0;
+ }
+
+#logo {
+     position:relative;
+     height: 100%;
+     width:100%;
+ }
+
+#logo img {
+     position:absolute;
+     top:0;
+     left:0;
+     right:0;
+     bottom:0;
+     margin:auto;
+ }
+
+
+
+ ul.share-buttons{
+   list-style: none;
+   padding: 0;
+ }
+
+ ul.share-buttons li{
+   display: inline;
+ }
+
+ ul.share-buttons .sr-only{
+   position: absolute;
+   clip: rect(1px 1px 1px 1px);
+   clip: rect(1px, 1px, 1px, 1px);
+   padding: 0;
+   border: 0;
+   height: 1px;
+   width: 1px;
+   overflow: hidden;
+ }
