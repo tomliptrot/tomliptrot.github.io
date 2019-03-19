@@ -15,19 +15,30 @@
 # in the templates via {{ site.myvariable }}.
 title: Ortom
 email: tom@ortom.co.uk
+tel: 07815660487
+author: Tom Liptrot
 description: >- # this means to ignore newlines until "baseurl:"
- Ortom is Data Science Consultancy and services company run by Tom Liptrot.
- Tom Liptrot is a highly experienced data scientist
+ Ortom is a Manchester based Data Science Consultancy run by Tom Liptrot
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tom_liptrot
 github_username:  tomliptrot
+linkedin_username: tomliptrot1
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+include: ['_pages']
+
+header_pages:
+  - about.md
+  - blog.md
+  - services.md
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

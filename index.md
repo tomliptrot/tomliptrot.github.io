@@ -5,5 +5,4 @@
 layout: home
 ---
 
-
-This site is still being built...
+## Site still under construction
