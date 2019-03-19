@@ -14,12 +14,13 @@ I am a data scientist, and as not everybody  knows what that it, I thought  it  
 
 This diagram was first made by New York Based data scientist Drew Conway in 2010.It is supposed to represent the three core sets of skills that make up a data scientist:
 - Hacking skills - skills in coding and software development, particularly around handling big datasets
-- Maths And Statistics Knowledge
-- Substantive Expertise
+- Maths And Statistics Knowledge - particularly around machine learning algorithms but covering many aspects of applied maths and stats
+- Substantive Expertise - This term is a bit vague, but basically means some knowledge about the context of the data
 
 The intersection of all three of these skill is a data scientist
 
-At tehTime tis diaram ws made there were only  handful of peope with the job title 'Data Scientist' in the world, they mostly existed at the big internet companies in the  USA
+At the time this diagram was made there were only  handful of people with the job title 'Data Scientist' in the world, they mostly existed at the big internet companies in the  USA. Over the past eight years theier number has increased and the job has evolved.
+
 ### Present
 
 ### Future
