@@ -7,7 +7,7 @@ fi
 
 
 title=`echo "$1" |sed 's/ /-/g'`
-fileName="_posts/`date +%Y-%m-%d-$title.markdown`"
+fileName="_drafts/`date +%Y-%m-%d-$title.markdown`"
 
 touch $fileName
 

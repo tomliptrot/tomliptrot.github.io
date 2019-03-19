@@ -20,6 +20,7 @@ experience across a range of sectors.
 
 *If you got a problem, yo! i'll solve it*
 
+[Download .PDF CV](/assets/TOM LIPTROT CV.pdf)
 <br>
 <br>
 

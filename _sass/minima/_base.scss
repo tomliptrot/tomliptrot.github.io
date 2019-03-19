@@ -8,6 +8,24 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+
 
 
 /**
@@ -88,6 +106,11 @@ li {
   }
 }
 
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
 
 
 /**
@@ -95,6 +118,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+  font-family: $heading-font-family;
 }
 
 

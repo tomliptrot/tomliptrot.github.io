@@ -1,6 +1,9 @@
 docs_list_title: Main Pages
 docs:
 
+- title: Home
+  url: /
+
 - title: About
   url: /about
 
@@ -9,3 +12,6 @@ docs:
 
 - title: Services
   url: /services
+
+- title: Contact
+  url: /contact

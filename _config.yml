@@ -39,6 +39,7 @@ header_pages:
   - blog.md
   - services.md
 
+google_analytics: UA-136488696-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
