@@ -6,11 +6,7 @@ permalink: /contact/
 
 <div class="contact-list">
   <li class="p-name">
-    {%- if site.author -%}
-      {{ site.author | escape }}
-    {%- else -%}
-      {{ site.title | escape }}
-    {%- endif -%}
+    Ortom Ltd.
     </li>
     <li>
     35 Cheltenham Road<li>Manchester<li>M21 9GL
