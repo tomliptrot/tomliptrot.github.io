@@ -18,3 +18,11 @@ permalink: /contact/
     {%- if site.tel -%}
     <li><a href="tel:{{ site.tel }}">{{ site.tel }}</a></li>
     {%- endif -%}
+
+<div class="form">
+  <form action="https://formspree.io/tom@ortom.co.uk" method="POST">
+    <input type="email" name="email" placeholder="Your email">
+    <textarea name="message" placeholder="Message"></textarea>
+    <button type="submit">Send Test</button>
+  </form>
+</div>

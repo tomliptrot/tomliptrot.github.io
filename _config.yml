@@ -24,6 +24,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tom_liptrot
 github_username:  tomliptrot
 linkedin_username: tomliptrot1
+title_image: https://ortom.co.uk/assets/images/ortom/Ortom%20square.png
 
 # Build settings
 markdown: kramdown

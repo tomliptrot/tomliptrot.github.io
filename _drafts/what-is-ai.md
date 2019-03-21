@@ -5,7 +5,6 @@ date:  2019-03-20 13:18:30
 categories:
 ---
 
-
 Artificial Intelligence is a slippery, often misused term. However, i will attempt to describe it. In machine learning there are two types of problems: things computers are good at that people find easy, and things people find easy but computers are good at.
 
 ### 1) Things computers are good at that people find hard
