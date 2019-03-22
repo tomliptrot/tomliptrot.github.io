@@ -20,7 +20,7 @@ author: Tom Liptrot
 description: >- # this means to ignore newlines until "baseurl:"
  Ortom is a Manchester based Data Science Consultancy run by Tom Liptrot
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ortom.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tom_liptrot
 github_username:  tomliptrot
 linkedin_username: tomliptrot1
