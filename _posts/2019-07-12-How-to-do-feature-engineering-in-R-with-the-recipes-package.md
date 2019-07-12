@@ -3,6 +3,7 @@ layout: post
 title: "How to do feature engineering in R with the recipes package"
 date:  2019-07-12 09:00:00
 categories: R
+image: /assets/images/salt-fat-acid-heat.jpg
 ---
 
 I was excited to start using Max Khun (creator of [Caret](https://topepo.github.io/caret/)'s) new set of '[tidymodels](https://github.com/tidymodels)' packages - rsample, recipe, yardstick, parsnip and dials. These are still under development but seem promising. The one I have so far found most useful is [recipe](https://tidymodels.github.io/recipes/). Here I'll give a quick overview of how you use it to do some simple data preparation for machine learning.
