@@ -11,7 +11,7 @@ R's approach to machine learning has always been a bit haphazard and fragmented.
 
 ### Recipe
 
-{: .center}
+
 ![Recipe](/assets/images/salt-fat-acid-heat.jpg){: width="80%" }
 *image from the excellent book [salt fat acid heat](https://www.amazon.co.uk/Salt-Fat-Acid-Heat-Mastering/dp/1782112308)*
 
@@ -31,21 +31,21 @@ aq_test = airquality[-(1:100), ]
 
 #make recipe
 recipe_1 = recipe(formula = Ozone ~ Solar.R + Wind + Temp + Month + Day,
-             data = aq_train) %>%
-              #add steps
-              step_medianimpute(all_numeric()) %>%
-              step_center(all_numeric())  %>%
-              step_scale( all_numeric())  %>%
-              #prep recipe
-              prep(training = aq_train, retain = TRUE,  verbose = TRUE)
+                  data = aq_train) %>%
+  #add steps
+  step_medianimpute(all_numeric()) %>%
+  step_center(all_numeric())  %>%
+  step_scale( all_numeric())  %>%
+  #prep recipe
+  prep(training = aq_train, retain = TRUE,  verbose = TRUE)
 
 #make model matrices
 mm_train = bake(recipe_1, new_data = aq_train, composition = 'matrix')
-mm_test = bake(recipe_1, new_data = aq_train, composition = 'matrix')
+mm_test = bake(recipe_1, new_data = aq_test, composition = 'matrix')
 {% endhighlight %}
 
 After doing this you can go off and do what you want with the model matrix. Changing the composition argument allows you to get a ""tibble", "matrix", "data.frame", or "dgCMatrix".
 
-This approach is flexible and allows a prepped recipe to be applied to a new dataset avoiding [data leakage](https://medium.com/@ODSC/how-to-fix-data-leakage-your-models-greatest-enemy-e34fa26abac5) problems. A list of available functions is [here](https://tidymodels.github.io/recipes/reference/index.html#section-basic-functions). User defined functions can also be made. 
+This approach is flexible and allows a prepped recipe to be applied to a new dataset avoiding [data leakage](https://medium.com/@ODSC/how-to-fix-data-leakage-your-models-greatest-enemy-e34fa26abac5) problems. A list of available functions is [here](https://tidymodels.github.io/recipes/reference/index.html#section-basic-functions). User defined functions can also be made.
 
 The recipe package is really useful and i've been using it a lot lately - it has streamlined a bit of my workflow that I'd been struggling with. It still has a few rough edges but is really worth trying out.
