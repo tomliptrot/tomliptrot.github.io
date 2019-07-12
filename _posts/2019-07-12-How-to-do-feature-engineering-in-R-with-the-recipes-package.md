@@ -2,7 +2,7 @@
 layout: post
 title: "How to do feature engineering in R with the recipes package"
 date:  2019-07-12 09:00:00
-categories: R
+categories: r
 image: /assets/images/salt-fat-acid-heat.jpg
 ---
 

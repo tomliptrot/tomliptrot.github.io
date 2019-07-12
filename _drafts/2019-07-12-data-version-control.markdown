@@ -1,21 +1,7 @@
-#!/bin/bash
-
-if [ "$#" -ne 1 ] ; then
-  echo "Usage: $0 <title>" >&2
-  exit 1
-fi
-
-
-title=`echo "$1" |sed 's/ /-/g'`
-fileName="_drafts/`date +%Y-%m-%d-$title.markdown`"
-
-touch $fileName
-
-cat > $fileName <<DELIM
 ---
 layout: post
-title: "$1"
-date:  `date "+%Y-%m-%d %H:%M:%S"`
+title: "data-version-control"
+date:  2019-07-12 20:47:28
 categories:
 ---
 
@@ -69,6 +55,3 @@ some text to be syntax highlighted....
 
 ![alt text](/path/to/img.jpg "Title")
 
-DELIM
-
-atom $fileName +9
