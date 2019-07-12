@@ -4,28 +4,29 @@ title: "Ortom Plan"
 date:  2019-03-27 13:18:30
 categories:
 ---
-
-## Whats the problem?
+## What's the problem?
 
 - Companies need to make better use of their data
 - They don't have the AI and data science skills needed to make the most of it
-- They struggle to recruit, retain and make the most of skilled data scientists
+- They struggle to recruit, retain and make the most of data scientists
 
 ## What's the solution?
 
-I will help you identify
-Look at a companies objectives
-work with senior leader to identify priorities that are achievable with a high impact
-Look at their datasets and identify opportunities
-scope out those opportunities
-For one or two of these: build a proof of concept
-make a plan to achieve their objectives
-help them to complex the plan by:
- - doing some of the work
+I can help you build an internal data science capability that is self-sustaining and high-achieving.
+I will work with your company to identify ways that data science and AI could solve your problems
+I will suggest changes that can make you a high performing data driven company
+I will assess exactly what needs to be done, how long it will take and how likely it is to work
+I will assess the likely impact of the solution
+
+After this point I can:
+Build a proof of concept that shows how a solution would look
+Make a plan to achieve the full objectives
+
+I will help you to achieve the plan by:
  - Training and mentoring existing staff
- - helping to hire, train and mentor new data scientists
- - Transfer knowledge and experience into the companies
- - Continue to support and make self sufficient
+ - Helping to hire, train and mentor new data scientists
+ - Transfer knowledge and experience into your company
+ - Providing continuing support and advice
 
 ## For investors
 

@@ -7,14 +7,16 @@ layout: home
 {: .center}
 ![Ortom](/assets/images/ortom/Ortom logo transparent1.png)
 
-Welcome! I've set up Ortom with the goal of providing high quality data science services to any organisation. At the moment the company is just me, Tom Liptrot providing data science services in the UK. I've been doing data science for the last 10 years in one way or another, most recently as head of data science at [Peak](https://www.peak.ai).
+Ortom is a data science consultancy based in Manchester run by Tom Liptrot.
 
-At Ortom I offer a three main [services](/services):
+We help organisations improve using data and machine learning.
 
-- Consulting - advising on data science and AI strategy and related topics
-- Contract work - working on 3 - 6 month projects
-- Training and recruitment - I can help you to develop your existing data science staff or help you hire new ones.
+Ortom offer three main [services](/services):
 
-I plan to use this space to post regular articles on data science, machine learning, artificial intelligence, statistics, philosophy of  mind; and one or two other related areas.
+- Consulting - Advising on data science and AI strategy and related topics
+- Contract work - working on 3 - 6 month data science projects
+- Training and recruitment - We can help you to develop your existing data science staff or help you hire new ones.
+
+Please get in [touch](/contact) if you want to have a chat about how you can use data  more effectively in your organisation.
 
 ## Blog Posts
