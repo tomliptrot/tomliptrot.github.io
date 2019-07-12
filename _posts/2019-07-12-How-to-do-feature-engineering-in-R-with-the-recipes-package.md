@@ -11,9 +11,8 @@ R's approach to machine learning has always been a bit haphazard and fragmented.
 
 ### Recipe
 
-
-![Recipe](/assets/images/salt-fat-acid-heat.jpg){: width="80%" }
-*image from the excellent book [salt fat acid heat](https://www.amazon.co.uk/Salt-Fat-Acid-Heat-Mastering/dp/1782112308)*
+{: .center}
+![image from the excellent book salt fat acid heat](/assets/images/salt-fat-acid-heat.jpg){: width="80%" }
 
 Basically, recipe provides a bunch of tools for preparing data and creating design matrices. This is a form of feature engineering. These matrices can then be used as training data for ML models. This is done in four steps:
 
