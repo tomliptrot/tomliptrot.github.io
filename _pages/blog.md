@@ -19,4 +19,4 @@ permalink: /blog/
 Here are a few blogs I like:
 * [R Bloggers](https://www.r-bloggers.com)
 * [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu/)
-*
+* [Slate Star Codex](https://slatestarcodex.com/)
