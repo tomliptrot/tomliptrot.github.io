@@ -34,8 +34,7 @@ plugins:
   - jekyll-seo-tag
 
 feed:
-  categories:
-    - r
+  categories: ["r"]
 
 include: ['_pages']
 
