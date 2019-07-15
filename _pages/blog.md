@@ -14,3 +14,9 @@ permalink: /blog/
 <br>
 <br>
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+### Blogroll
+Here are a few blogs I like:
+* [R Bloggers](https://www.r-bloggers.com)
+* [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu/)
+*
