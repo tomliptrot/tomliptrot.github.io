@@ -17,6 +17,10 @@ img + em { display: block; font-size:12px}
     text-align: center;
 }
 
+iframe {
+max-width: 600px;
+min-width: 300px;
+}
 
 .PageNavigation {
   font-size: 14px;
