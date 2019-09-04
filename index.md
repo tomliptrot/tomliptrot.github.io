@@ -10,7 +10,7 @@ layout: home
 {: .center}
 ## Want to use AI and data science but don't know where to begin?
 
-Ortom is a  data science consultancy that helps organisations improve their use of data.
+Ortom is a  data science consultancy that helps organisations solve data problems.
 
 We offer three main [services](/services):
 
