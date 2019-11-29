@@ -9,7 +9,7 @@ category:
 
 
 
-I went to the [Open Data Science Conference](https://odsc.com/london/) in London last week. I really enjoyed it. There was lost of really practical, technical content. Not too much bullshit/sales and lots of up to date data science. I would really recommend it as a data scientist going to get up to date with some of the latest stools and techniques people are using. Here are my four highlights:
+I went to the [Open Data Science Conference](https://odsc.com/london/) in London last week. I really enjoyed it. There was lots of really practical, technical content and not too much bullshit/sales and lots of up to date data science.  Here are my four highlights:
 
 ## 1. NLP is having a pretty big moment:  we can all have a go!
 
@@ -68,11 +68,11 @@ There was also this talk  ["Latest Deep Learning Models for NLP"](https://odsc.c
 
 ![python](/assets/images/python.jpg)
 
-After 10 years of using mostly R, lately I have been using more and more Python and I've really been enjoying it (with some misgivings that I won't go into here). So at this conference I tried to go to as many Python related talks as I could. It made me feel like a noob again, but was fun. Particularly good were there three
+After 10 years of using mostly R, lately I have been using more and more Python and I've really been enjoying it (with some misgivings that I won't go into here). So at this conference I tried to go to as many Python related talks as I could. It made me feel like a noob again, but was fun. Particularly good were these three
 
 #### [Andreas Muller](https://amueller.github.io/): Professor at Columbia and developer of [scikit-learn](https://scikit-learn.org/stable/).
 
-Was giving a series of talks on using the preeminent python machine learning library scikit-learn. I couldn't go to all of them (too much good stuff on!), but the one I went to was excellent. Its nice to hear directly from the developer of such a popular package. Like he said:
+Was giving a series of talks on using the preeminent python machine learning library scikit-learn. I couldn't go to all of them (too much good stuff on!), but the one I went to (on using pipelines) was excellent. Its nice to hear directly from the developer of such a popular package. Like he said:
 
 >  "I can ignore the warnings because I wrote them!"
 
@@ -102,11 +102,11 @@ He had loads of tips for getting python code to run faster. More details are [he
 
 - [shelve](https://docs.python.org/3/library/shelve.html) cache module
 
-- [bulwark](https://pypi.org/project/bulwark/) - pandas testing/schema... have a look...
+- [bulwark](https://pypi.org/project/bulwark/) - pandas testing/schema.
 
 #### [Daniel Voigt Godoy](https://www.linkedin.com/in/dvgodoy/) from Deloitte, on Pytorch.
 
- [colab link](https://colab.research.google.com/github/dvgodoy/PyTorch101_ODSC_London2019/blob/master/PyTorch101_Colab.ipynb) [github](https://github.com/dvgodoy/PyTorch101_ODSC_London2019). He showed how to implement linear regression using gradient descent - uses all of pytorch's feature in simple example. A really useful introduction to the framework. I liked this image he used:
+ [colab link](https://colab.research.google.com/github/dvgodoy/PyTorch101_ODSC_London2019/blob/master/PyTorch101_Colab.ipynb) [github](https://github.com/dvgodoy/PyTorch101_ODSC_London2019). He showed how to implement a simple linear regression in Pytorch using gradient descent. This was a good intro as it used all of Pytorch's feature in simple example. A really useful introduction to the framework. I liked this image he used:
 
 ![img](http://karlstratos.com/drawings/linear_dogs.jpg)
 
@@ -114,20 +114,20 @@ He had loads of tips for getting python code to run faster. More details are [he
 
 ## 3. AI has a long way to go but DeepMind are doing amazing stuff
 
-[Danilo  J Rezende](https://DaniloRezende.com), from DeepMind gave a fascinating talk on his research around model based reinforcement learning. I find this stuff really intresting, although I don't fully understand all (much?) of it. He was basically arguing why it is useful to learn generative models of the world. If we want really successful agents we will need to move beyond classification and  model the inputs, not just the outputs. To do this you need to understand causal structure. This sounds really truly to me. The general approach echoes stuff being put forward about how the human brain works by neuroscientist [Karl Friston](https://www.wired.com/story/karl-friston-free-energy-principle-artificial-intelligence/) and my favourite philosopher [Andy Clark](https://www.edge.org/conversation/andy_clark-perception-as-controlled-hallucination). There seems to be load of work around this area at the moment, and I'm keen to keep up with it. As yet it is mostly fairly theoretical without loads of applications, but I think that will change soon.
+[Danilo  J Rezende](https://DaniloRezende.com), from DeepMind gave a fascinating talk on his research around model based reinforcement learning. I find this stuff really intresting, although I don't fully understand all (much?) of it. He was basically arguing why it is useful to learn generative models of the world. If we want really successful agents we will need to move beyond classification and  model the inputs, not just the outputs. To do this you need to understand causal structure. This really chimes with me. The general approach echoes stuff being put forward about how the human brain works by neuroscientist [Karl Friston](https://www.wired.com/story/karl-friston-free-energy-principle-artificial-intelligence/) and my favourite philosopher [Andy Clark](https://www.edge.org/conversation/andy_clark-perception-as-controlled-hallucination). There seems to be load of work around this area at the moment, and I'm keen to keep up with it. As yet it is mostly fairly theoretical without loads of applications, but I think that will change soon.
 
 - paper:"[One-shot generalisation in deep generative models](https://arxiv.org/abs/1603.05106)", Danilo Rezend
 - paper:"[neural scene representation and rendering](https://deepmind.com/blog/article/neural-scene-representation-and-rendering)": really interesting. Generative Query Network (GQN), . Filling in 3-d scenes from small number of images. Actions driven by reducing uncertainty (a la Friston). GQN, learns factorised representation of a scene. [full paper](https://storage.googleapis.com/deepmind-media/papers/Neural_Scene_Representation_and_Rendering_preprint.pdf)
 
 ## 4. *Vendors* don't really have anything very good to offer data science
 
-IBMs 'keynote' talk was fairly dismal. I guess if you are the 'diamond' sponsor you get to do a sales pitch. Maybe it could be a bit better disguised. I'm never very impressed with Watson - its basically just branding of a fairly standard service. I once was pitched at by IBM and it was about 25 consultants in suits with 1 statistician on the phone suggesting to use a linear regression. Telling a room full of data scientists about how data can change our organisations is a bit reductive. 85% of statistics are made up on the spot. 
+IBMs 'keynote' talk was fairly dismal. I guess if you are the 'diamond' sponsor you get to do a sales pitch. Maybe it could be a bit better disguised. I'm never very impressed with Watson - its basically just branding of a fairly standard service. I once was pitched at by IBM and it was about 25 consultants in suits with 1 statistician on the phone suggesting to use a linear regression. Telling a room full of data scientists about how data can change our organisations is a bit redundant. 85% of statistics are made up on the spot. 
 
-They were pitching their AutoAI product (along with most of the vendors here). I'm fairly sceptical about these. Such a small percentage of a data scientists time is spent running through various models to select the best. Professional data science is nothing like a kaggle competition where you are given a dataset nicely formatted in csv. The work is in understanding the business problem and how the data relates to it. Prediction is the quick bit at the end.
+They were pitching their AutoAI product (along with most of the vendors here). I'm fairly sceptical about these. Such a small percentage of a data scientists time is spent running through various models to select the best. Professional data science is nothing like a Kaggle competition where you are given a dataset nicely formatted in .csv. The work is in understanding the business problem and how the data relates to it. Prediction is the quick bit at the end.
 
-To be fair the organiser didn't look too happy with the talk.
+To be fair the organiser didn't look too happy with the talk. And also to be fair, I think the guy who was supposed to be doing  it had to pull out at the last minute. But anyway - sales pitches are not welcome on a conference you paid large amounts off money to attend.
 
-All in, it was a really good conference and I reckon I'll be back next year in [Dublin](https://odsc.com/london/)
+All in all though, it was a really good conference and I reckon I'll be back next year in [Dublin](https://odsc.com/london/)
 
 
 
