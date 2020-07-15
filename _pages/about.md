@@ -13,11 +13,15 @@ permalink: /about/
 {: .center}
 ![Tom Liptrot](/assets/images/tomliptrot.JPG){: width="125"  style="float:left; padding:8px"}
 
-Tom Liptrot is a data scientist, and has been since the term was first coined around 2008. He has a deep understanding of complex statistical and machine learning
+Tom Liptrot is data scientist, machine learning engineer, business consultant and statistician.
+
+He has been doing data science since the term was first coined around 2008. He has a deep understanding of complex statistical and machine learning
 techniques. He is a skilled coder (R, Python, C++, SQL, AWS, Linux) and strong communicator with good
 commercial awareness. Tom is able to translate business problems into mathematical problems and solve
 them. Well connected in the data science community and with academia, Tom has extensive commercial
 experience across a range of sectors.
+
+Book a meeting [here](calendly.com/ortom/60min)
 
 
 # Previous employment

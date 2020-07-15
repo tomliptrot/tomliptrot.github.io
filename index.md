@@ -8,9 +8,16 @@ layout: home
 ![Ortom](/assets/images/ortom/Ortom logo transparent1.png)
 
 {: .center}
-## Want to use AI and data science but don't know where to begin?
 
-Ortom is a  data science consultancy that helps organisations solve data problems.
+## Data Science Consultancy
+
+Have you ever struggled to get machine learning to deliver results?
+
+Are not getting the most out of your data?
+
+If you have a great idea for using AI and need some help making it a reality, Ortom is here to help!
+
+Ortom is a  data science consultancy run by Manchester based AI expert Tom Liptrot
 
 We offer three main [services](/services):
 
@@ -23,5 +30,4 @@ Please  <!-- Calendly link widget begin --><link href="https://assets.calendly.c
 <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ortom/60min'});return false;">book an initial consultation</a>
 <!-- Calendly link widget end --> if you want to have a chat about how you can use data  more effectively in your organisation.
 
-
-## Blog Posts
+[Sign up to my bi-weekly data science newsletter here ](http://newsletter.ortom.co.uk)
