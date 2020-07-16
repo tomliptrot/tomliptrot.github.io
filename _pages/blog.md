@@ -3,16 +3,25 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
-{% for post in site.posts %}
- <article>
- <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time> :
-     <a href="{{ post.url }}">
-       {{ post.title }}
-     </a>
- </article>
-{% endfor %}
-<br>
-<br>
+
+
+<ul>
+  {% for post in site.posts %}
+   <h2 class="post-title p-name" itemprop="name headline">
+   <a href="{{ post.url }}">{{ post.title }}</a>
+   </h2>
+   <p class="post-meta">
+      <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ post.date | date: date_format }}
+      </time>
+      {%- if post.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ post.author }}</span></span>
+      {%- endif -%}</p>
+  {{ post.excerpt }}
+  {% endfor %}
+</ul>
+
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
 ### Blogroll
