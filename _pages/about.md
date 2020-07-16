@@ -11,7 +11,8 @@ permalink: /about/
 # Tom Liptrot
 
 {: .center}
-![Tom Liptrot](/assets/images/tomliptrot.JPG){: width="125"  style="float:left; padding:8px"}
+![Tom Liptrot](/assets/images/Tom_Liptrot.jpg)
+
 
 Tom Liptrot is data scientist, machine learning engineer, business consultant and statistician.
 
@@ -24,15 +25,12 @@ experience across a range of sectors.
 Book a meeting [here](calendly.com/ortom/60min)
 
 
-# Previous employment
-- Head Of Data Science at [Peak](www.peak.ai). Led team of 17 data scientists doing data science consultancy for companies including ASOS, Speedy, Arsenal, Footasylum and Marshalls
-- Senior Data Scientist at [The Christie Hospital](https://www.christie.nhs.uk/)
+# Previously
+- Head Of Data Science at [Peak](www.peak.ai). Tom built one of the UKs largest and most successful AI companies. Led team of 20 data scientists doing data science consultancy for companies including ASOS, Speedy, Arsenal, Footasylum and Marshalls
+- Senior Data Scientist at [The Christie Hospital](https://www.christie.nhs.uk/). Set up the first data science team in the NHS in a specilaist cancer hospital.
 - Data Scientist at [AstraZeneca](https://www.astrazeneca.co.uk/)
 - Data Scientist at [Kalibrate](https://www.kalibrate.com/)
 
 [Download .PDF CV](/assets/TOM LIPTROT CV.pdf)
 <br>
 <br>
-
-<div class="just-comments" data-apikey="6594015a-feeb-4c74-b3e3-31629308721d"></div>
-<script async src="https://just-comments.com/w.js"></script>
