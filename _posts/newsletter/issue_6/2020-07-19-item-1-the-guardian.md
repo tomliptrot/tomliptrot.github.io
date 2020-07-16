@@ -1,5 +1,5 @@
 ---
-date: '2020-07-19'
+date: 2020-07-19 21:00:00
 image_url: null
 layout: post
 link: https://www.theguardian.com/film/2020/jul/07/empathy-machines-what-will-happen-when-robots-learn-to-write-film-scripts

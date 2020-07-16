@@ -6,8 +6,9 @@ import fire
 import frontmatter
 import string
 import sys
+from datetime import datetime
 
-def new_newsletter(issue_number, issue_date, newsletter_folder = '_posts/newsletter/', template = '_posts/post_template.md'):
+def new_newsletter(issue_number, issue_date, newsletter_folder = '_posts/newsletter/', template = '_posts/post_template.md', time_to_publish = '21:00:00'):
 
     newsletter_folder= Path(newsletter_folder)
     name = 'issue_' + str(issue_number)
@@ -23,16 +24,17 @@ def new_newsletter(issue_number, issue_date, newsletter_folder = '_posts/newslet
         copyfile(template , new_post)
         post_content = frontmatter.load(template )
         post_content['story_number'] = i+1
-        post_content['date'] = issue_date
+        post_dttm = datetime.strptime(pissue_date + time_to_publish,  '%Y-%m-%d%H:%M:%S')
+        post_content['date'] = post_dttm
         frontmatter.dump(post_content, new_post)
 
 
-def rename(path):
+def rename(path, time_to_publish = '21:00:00'):
     path = Path(path)
     for file in path.iterdir():
         post = frontmatter.load(file)
         post_name = file.stem
-        post_date = post_name[0:10]
+        post_date = post_name[0:10] 
         story_number = str(post['story_number'])
         title = post['title']
         if(title):
