@@ -9,7 +9,7 @@ layout: home
 
 {: .center}
 
-## Data Science Consultancy
+## Tom Liptrot's Data Science Consultancy
 
 Have you ever struggled to get machine learning to deliver results?
 
@@ -29,5 +29,3 @@ Please  <!-- Calendly link widget begin --><link href="https://assets.calendly.c
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ortom/60min'});return false;">book an initial consultation</a>
 <!-- Calendly link widget end --> if you want to have a chat about how you can use data  more effectively in your organisation.
-
-[Sign up to my bi-weekly data science newsletter here ](http://newsletter.ortom.co.uk)
