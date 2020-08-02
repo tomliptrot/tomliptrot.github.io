@@ -24,7 +24,7 @@ def new_newsletter(issue_number, issue_date, newsletter_folder = '_posts/newslet
         copyfile(template , new_post)
         post_content = frontmatter.load(template )
         post_content['story_number'] = i+1
-        post_dttm = datetime.strptime(pissue_date + time_to_publish,  '%Y-%m-%d%H:%M:%S')
+        post_dttm = datetime.strptime(issue_date + time_to_publish,  '%Y-%m-%d%H:%M:%S')
         post_content['date'] = post_dttm
         frontmatter.dump(post_content, new_post)
 
