@@ -13,12 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ortom | solve data problems
+title: Ortom | Solving problems with data
 email: tom@ortom.co.uk
-tel: 07815660487
+tel: +44(0)7815 660487
 author: Tom Liptrot
-description: >- # this means to ignore newlines until "baseurl:"
- Data Science Consultancy based in Manchester by Tom Liptrot. Solving problems with data.
+description: Data science consultancy based in Manchester
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ortom.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tom_liptrot

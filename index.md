@@ -9,23 +9,30 @@ layout: home
 
 {: .center}
 
-## Tom Liptrot's Data Science Consultancy
+## Solving problems with data
 
-Have you ever struggled to get machine learning to deliver results?
+Do you struggle to get machine learning to deliver results?
 
-Are not getting the most out of your data?
+Are you getting the most out of your data?
 
-If you have a great idea for using AI and need some help making it a reality, Ortom is here to help!
+If you have a great idea for using AI but need guidance to make it a reality, Ortom is here to help.
 
 Ortom is a  data science consultancy run by Manchester based AI expert Tom Liptrot
 
 We offer three main [services](/services):
 
-- Consulting - Advising on data science and AI strategy and related topics
-- Contract work - working on 3 - 6 month data science projects
-- Training and recruitment - We can help you to develop your existing data science staff or help you hire new ones.
+## Consulting 
+Advising on data science and AI strategy and related topics.
 
-Please  <!-- Calendly link widget begin --><link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ortom/60min'});return false;">book an initial consultation</a>
-<!-- Calendly link widget end --> if you want to have a chat about how you can use data  more effectively in your organisation.
+## Contract work
+Working on 3-6 month data science projects.
+
+## Training and recruitment
+Helping you to develop existing data science staff or hire new team members.
+
+If you would like to use data more effectively in your organisation, book an initial consultation <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ortom/60min'});return false;">here</a>. Let's start a conversation!
+
+
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript">
+</script>

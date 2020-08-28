@@ -17,6 +17,12 @@ layout: default
 
 
 
+  
+  {% if page.image %}
+  <img class="post-content img" src="{{ page.image | prepend: site.baseurl }}">
+  {% endif %}
+
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>

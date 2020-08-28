@@ -48,6 +48,11 @@ img + em { display: block; font-size:12px}
     text-align: center;
 }
 
+/* To center images */
+.left {
+  text-align: left;
+}
+
 iframe {
 max-width: 600px;
 min-width: 300px;

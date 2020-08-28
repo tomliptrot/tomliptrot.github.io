@@ -7,6 +7,16 @@ import frontmatter
 import string
 import sys
 from datetime import datetime
+from urllib import request
+from bs4 import BeautifulSoup
+
+
+def get_title(url):
+    html = request.urlopen(url).read().decode('utf8')
+    html[:60]
+    soup = BeautifulSoup(html, 'html.parser')
+    title = soup.find('title')
+    return title.string 
 
 def new_newsletter(issue_number, issue_date, newsletter_folder = '_posts/newsletter/', template = '_posts/post_template.md', time_to_publish = '21:00:00'):
 
@@ -37,12 +47,18 @@ def rename(path, time_to_publish = '21:00:00'):
         post_date = post_name[0:10] 
         story_number = str(post['story_number'])
         title = post['title']
-        if(title):
-            title = title.translate(str.maketrans('', '', string.punctuation))
-            title = title.replace(" ", "-")
-            title = title.lower()
-            title = post_date + '-item-' + story_number  + '-' + title + '.md'
-            file.rename(path / title )   
+        if not title:
+            title = get_title(post['link'])
+            post['title'] = str(title)
+
+        title = title.translate(str.maketrans('', '', string.punctuation))
+        title = title.replace(" ", "-")
+        title = title.lower()
+        title = post_date + '-item-' + story_number  + '-' + title + '.md'
+        frontmatter.dump(post, file)
+        file.rename(path / title )   
+
+
 
 if __name__ == "__main__":
     fire.Fire()
