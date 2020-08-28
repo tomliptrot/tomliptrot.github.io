@@ -7,7 +7,9 @@ story_number: 2
 title: 'Git for data: not a silver bullet?'
 ---
 
-Recently a lot of effort has gone into improving the quality of 'production' machine learning system. One approach that has gained a lot of momentum and that I am a fan of is Data Version Control- a kind of git for data. This [article](https://locallyoptimistic.com/post/git-for-data-not-a-silver-bullet/) by Michael Kaminsky argues that it does not solve all problems and may not be necessary. Kaminsky suggests that rather than having muliple copies of data under a version control system it is easier just to have transformation code in version control and keep a log of your data.
+Recently a lot of effort has gone into improving the quality of 'production' machine learning system. One approach that has gained a lot of momentum and that I am a fan of is Data Version Control- a kind of git for data. 
+
+This [article](https://locallyoptimistic.com/post/git-for-data-not-a-silver-bullet/) by Michael Kaminsky argues that it does not solve all problems and may not be necessary. Kaminsky suggests that rather than having muliple copies of data under a version control system it is easier just to have transformation code in version control and keep a log of your data.
 
 > If you have the raw data and you have the transformation code in version control, you can re-create the transformed data from any point in time just by checking out the correct version of the transformation code and applying it to the raw data — assuming your transformations are deterministic (please, please make sure this is the case) you don’t need to version your data because you can always trivially recreate it.
 

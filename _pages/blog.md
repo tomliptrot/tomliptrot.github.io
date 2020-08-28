@@ -18,6 +18,11 @@ permalink: /blog/
       {%- if post.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ post.author }}</span></span>
       {%- endif -%}</p>
+
+    {% if post.image %}
+  <img class="post-content img" src="{{ post.image | prepend: site.baseurl }}">
+  {% endif %}
+
   {{ post.excerpt }}
   {% endfor %}
 </ul>
