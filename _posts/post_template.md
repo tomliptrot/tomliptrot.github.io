@@ -4,7 +4,7 @@ date:
 link: 
 story_number: 5
 title: 
-image_url: 
+image: 
 ---
 
 [One sentence summary](www.example.com)

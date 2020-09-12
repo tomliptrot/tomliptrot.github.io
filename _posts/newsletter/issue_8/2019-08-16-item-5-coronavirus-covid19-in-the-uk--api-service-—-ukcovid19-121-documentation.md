@@ -11,3 +11,4 @@ Public Health England have released a new [API](https://coronavirus.data.gov.uk/
 
 As flare ups ups continue around the country the ability to access and interpret the data on which decisions are being made is really important. The default portal only provides limited data. I welcome this commitment to making the data open and accessible.
 
+

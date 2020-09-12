@@ -25,6 +25,9 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+    {% if page.link %}
+    <a href={{page.link}}>Link ({{page.word_count}} words)</a>
+    {% endif %}
   </div>
 
   <div class="PageNavigation">
