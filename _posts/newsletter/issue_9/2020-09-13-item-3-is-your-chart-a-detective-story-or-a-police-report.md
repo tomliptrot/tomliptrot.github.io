@@ -4,16 +4,12 @@ image: /assets/images/detective-156647_1280.png
 layout: post
 link: https://www.wired.com/story/is-your-chart-a-detective-story-or-a-police-report/
 story_number: 3
-title: Is Your Chart a Detective Story? Or a Police Report?
+title: Types of data visualisation
 word_count: '2,447'
 ---
 
-[One sentence summary](www.example.com)
+Andrew Gelman always has useful things to say. In this Wired article he talks about different types of data visualisation. Engaging and popular visualisation are not always the easiest to read. instead, often they are the ones that drawn in the viewer and make them engage in the scientific process as if discovering something for themselves.
 
-Interesting titbit
+> "The most effective graphs both anticipate and shape expectations. Regardless of how complicated the graph, the same general principle holds. We make graphs for two reasons: to learn the unexpected (“exploratory data analysis,” in statistics jargon) and to communicate findings to others. Exploratory data analysis works off of models almost by definition—it is only through expectations that “the unexpected” is defined. "
 
-My take
-
-200 charters for for intro
-
-1,300 characters limit for linked in
+I like the parallels drawn here between good data visualisation and art. Its not always about clearly stating your finding, as much as wining over and exciting your audience,

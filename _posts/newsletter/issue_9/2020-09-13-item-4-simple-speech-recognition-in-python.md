@@ -1,6 +1,6 @@
 ---
 date: 2020-09-13 21:00:00
-image: /assets/images/call-center-2006866_1280.png
+image: /assets/images/jason-rosewell-ASKeuOZqhYU-unsplash.jpg
 layout: post
 link: https://github.com/Uberi/speech_recognition
 story_number: 4
@@ -8,12 +8,17 @@ title: Simple speech recognition in Python
 word_count: '3,502'
 ---
 
-[One sentence summary](www.example.com)
+Easily convert speech to text in Python with the SpeechRecognition library. Add voice to you application with a few lines of code:
 
-Interesting titbit
+```python
+import speech_recognition as sr
+r = sr.Recognizer()
+with sr.Microphone() as source:
+    print("Say something!")
+    audio = r.listen(source)
 
-My take
+print("Sphinx thinks you said " + r.recognize_sphinx(audio))
 
-200 charters for for intro
-
-1,300 characters limit for linked in
+print("Google Speech Recognition thinks you said " + r.recognize_google(audio))
+```
+Thats it!  It has built in support for 7 different speech recognition engines, most are cloud based, but 2 work off-line as well.

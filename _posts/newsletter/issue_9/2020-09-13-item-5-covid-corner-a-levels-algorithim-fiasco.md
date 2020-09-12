@@ -8,12 +8,4 @@ title: 'Covid corner: A levels algorithim fiasco'
 word_count: '3,868'
 ---
 
-[One sentence summary](www.example.com)
-
-Interesting titbit
-
-My take
-
-200 charters for for intro
-
-1,300 characters limit for linked in
+The recent A level results fiasco gives data science a bad name. It's a really useful illustration of how important it is to consider hw algorithms propagate existing inequalities. 
