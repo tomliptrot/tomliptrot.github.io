@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-{: .left} 
-![Tom Liptrot](/assets/images/Tom_Liptrot.jpg){: width="80%" }
+{: .image-left} 
+![Tom Liptrot](/assets/images/Tom_Liptrot.jpg)
+
 
 
 Ortom is a Manchester-based data science consultancy run by Tom Liptrot.
@@ -23,6 +24,7 @@ Book a meeting [here](calendly.com/ortom/60min).
 
 # Previously
 - Head Of Data Science at Peak. Tom built one of the UK's largest and most successful AI companies. Leading a team of 20 data scientists, Tom provided data science consultancy for various companies including ASOS, Speedy, Arsenal, Footasylum and Marshalls.
+
 - As Senior Data Scientist at The Christie Hospital, Tom set up the first data science team in the NHS.
 Tom has also worked as a Data Scientist at AstraZeneca and at Kalibrate. For further details, download Tom’s CV, [here](/assets/TOM LIPTROT CV.pdf)
 
