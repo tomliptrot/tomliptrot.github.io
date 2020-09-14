@@ -8,7 +8,9 @@ title: Embodied AI at Facebook
 word_count: '3,105'
 ---
 
-Embodied AI involves making software based agent that interact with and operate in the physical world. Currently a lot of research  around this areas involves simulating 3d worlds and training agents to solve problems in it. The idea is that development in this highly controlled environment will lead to approaches that will also work outside in the real world.
+Embodied AI involves making software based agents that interact with and operate in the physical world. 
+
+Currently a lot of research  around this areas involves simulating 3d worlds and training agents to solve problems in it. The idea is that development in this highly controlled environment will lead to approaches that will also work outside in the real world.
 
 In this article Facebook AI announce some new development in this field.
 
