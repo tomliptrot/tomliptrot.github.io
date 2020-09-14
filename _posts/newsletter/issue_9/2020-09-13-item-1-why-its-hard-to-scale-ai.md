@@ -8,7 +8,7 @@ title: Why it's hard to scale AI
 word_count: '4,217'
 ---
 
-Business that use AI in their products are harder to scale, argues a recent article from US based VC Andreessen Horowitz.
+Businesses that use AI in their products are harder to scale, argues a recent article from US based VC Andreessen Horowitz.
 
 > "AI development is a process of experimenting, much like chemistry or physics. The job of an AI developer is to fit a statistical model to a dataset, test how well the model performs on new data, and repeat. This is essentially an attempt to reign in the complexity of the real world.
 
