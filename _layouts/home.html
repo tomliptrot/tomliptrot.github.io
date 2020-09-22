@@ -3,6 +3,14 @@ layout: default
 ---
 
 <meta property="og:image" content="/assets/images/ortom/Ortom.png" />
+<link
+  href="https://assets.calendly.com/assets/external/widget.css"
+  rel="stylesheet"
+/>
+<script
+  src="https://assets.calendly.com/assets/external/widget.js"
+  type="text/javascript"
+></script>
 <div>
   {{ content }}
   <div class="banner">
@@ -11,7 +19,7 @@ layout: default
       <h2>Make AI work for you</h2>
     </div>
     <div class="banner__right">
-      <img class="banner__image" src="../assets/images/diagram.png" />
+      <img class="banner__image" src="../assets/images/Boxes.png" />
     </div>
   </div>
   <div class="section">
@@ -37,12 +45,12 @@ layout: default
       </p>
     </div>
     <div class="section__left">
-      <img class="section__image" src="../assets/images/diagram.png" />
+      <img class="section__image" src="../assets/images/line-chart.png" />
     </div>
   </div>
   <div class="section">
     <div class="section__right">
-      <img class="section__image" src="../assets/images/diagram.png" />
+      <img class="section__image" src="../assets/images/timeline.png" />
     </div>
     <div class="section__left">
       <h2>Training & Recruitment</h2>
@@ -53,5 +61,12 @@ layout: default
         candidates and assisting with the interview process.
       </p>
     </div>
+  </div>
+  <div class="contact">
+    <button
+      onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ortom/60min'});return false;"
+    >
+      <h3>Book a consultation</h3>
+    </button>
   </div>
 </div>
