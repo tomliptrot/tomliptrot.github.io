@@ -74,6 +74,16 @@ ul.share-buttons .sr-only {
   max-height: 100px;
 }
 
+@media (max-width: 575px) {
+  .banner,
+  .section {
+    flex-direction: column;
+  }
+  .section__image {
+    display: none;
+  }
+}
+
 .banner {
   display: flex;
   align-items: center;
