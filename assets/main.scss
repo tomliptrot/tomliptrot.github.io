@@ -1,15 +1,15 @@
 ---
 ---
 
- @import "minima";
+@import "minima";
 
- img.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -250px; /* Half the height */
-    margin-left: -250px; /* Half the width */
- }
+img.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px; /* Half the height */
+  margin-left: -250px; /* Half the width */
+}
 
 // .center {
 //   display: block;
@@ -18,46 +18,83 @@
 //   width: 80%;
 // }
 
- #logo html, body
- {
-     height: 100%;
-     margin:0;
-     padding:0;
- }
+#logo html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 #logo {
-     position:relative;
-     height: 100%;
-     width:100%;
- }
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
 
 #logo img {
-     position:absolute;
-     top:0;
-     left:0;
-     right:0;
-     bottom:0;
-     margin:auto;
- }
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
 
+ul.share-buttons {
+  list-style: none;
+  padding: 0;
+}
 
+ul.share-buttons li {
+  display: inline;
+}
 
- ul.share-buttons{
-   list-style: none;
-   padding: 0;
- }
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
 
- ul.share-buttons li{
-   display: inline;
- }
+.services {
+  display: flex;
+}
 
- ul.share-buttons .sr-only{
-   position: absolute;
-   clip: rect(1px 1px 1px 1px);
-   clip: rect(1px, 1px, 1px, 1px);
-   padding: 0;
-   border: 0;
-   height: 1px;
-   width: 1px;
-   overflow: hidden;
- }
+.service {
+  width: 33%;
+  text-align: center;
+}
+
+.service__icon {
+  max-width: 75%;
+  max-height: 100px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__image {
+    max-width: 350px;
+  }
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 64px;
+  &__image {
+    max-width: 250px;
+  }
+  &__left {
+    margin: 16px;
+  }
+  &__left {
+    margin: 16px;
+  }
+}
