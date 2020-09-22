@@ -20,4 +20,4 @@ The data for building supervised models often has long fat tails -  there are a 
 - Make operations efficient and repeatable
 - Use meta models or transfer learning
 
-No easy solutions here, but it's an interesting discussion. One thing that it leaves out as a solution is to automate the head of the distribution and manually do the tail. This tends to reduce routine work amnd leaves the more complex cases for humans.
+No easy solutions here, but it's an interesting discussion. One thing that it leaves out as a solution is to automate the head of the distribution and manually do the tail. This tends to reduce routine work and leaves the more complex cases for humans.
