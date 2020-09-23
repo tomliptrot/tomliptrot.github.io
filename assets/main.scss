@@ -84,7 +84,16 @@ ul.share-buttons .sr-only {
   }
 }
 
+.content {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .banner {
+  padding: 64px;
+  background-color: pink;
   display: flex;
   align-items: center;
   justify-content: space-between;
