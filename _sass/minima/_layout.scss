@@ -5,9 +5,13 @@
   // border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-
   // Positioning context for the mobile navigation icon
-  position: relative;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: #f9f9f9;
+  padding: 0px 16px;
+  width: calc(100% - 32px);
 }
 
 .site-title {

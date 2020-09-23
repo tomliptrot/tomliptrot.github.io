@@ -17,10 +17,14 @@ img.center {
 //   margin-right: auto;
 //   width: 80%;
 // }
+// override calendly
+body,
+html {
+  height: auto !important;
+}
 
 #logo html,
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
 }
