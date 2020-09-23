@@ -2,9 +2,10 @@
 date: 2020-09-27 21:00:00
 image: null
 layout: post
-link: null
-story_number: 5
-title: null
+link: https://duckdb.org/?s=09
+story_number: 4
+title: DuckDB - An embeddable SQL OLAP database management system
+word_count: null
 ---
 
 [One sentence summary](www.example.com)
