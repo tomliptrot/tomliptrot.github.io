@@ -146,7 +146,12 @@ ul.share-buttons .sr-only {
   margin: 64px 0px;
 }
 
-button h3 {
+.contact__email {
+  width: 100%;
+  margin-top: 32px;
+}
+
+button h4 {
   margin: 18px 16px;
 }
 
@@ -236,10 +241,12 @@ p {
 input,
 textarea {
   border: 1px solid #4a4a4a;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 input:focus,
 textarea:focus {
-  border: 1px solid #2c8898;
+  border: 1px solid #f6bfca;
 }
 
 textarea {
@@ -259,7 +266,7 @@ input[type="button"] {
   background-color: #f6bfca;
   color: #4a4a4a;
   border-radius: 1px;
-  border: 0px solid #2c8898;
+  border: 0px solid #f6bfca;
   cursor: pointer;
   box-sizing: border-box;
 }
@@ -303,12 +310,12 @@ input[type] {
 textarea:focus,
 select:focus,
 input[type]:focus {
-  border: 1px solid #2c8898;
+  border: 1px solid #f6bfca;
   outline: 0;
 }
 
 input[type="checkbox"]:focus {
-  outline: 1px dotted #2c8898;
+  outline: 1px dotted #f6bfca;
 }
 
 label,

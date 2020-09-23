@@ -67,8 +67,41 @@ layout: default-nowrapper
       <button
         onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ortom/60min'});return false;"
       >
-        <h3>Book a consultation</h3>
+        <h4>Book a consultation</h4>
       </button>
+      <divider id="contact">
+        <div id="contact-form">
+          <form
+            method="POST"
+            action="https://formspree.io/joseph.allen.1994@hotmail.com"
+            _lpchecked="1"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="Contact request from ortom.co.uk"
+            />
+            <input
+              type="email"
+              name="_replyto"
+              placeholder="Your email"
+              required=""
+              class="contact__email"
+            />
+            <textarea
+              name="message"
+              cols="48"
+              id="textarea"
+              placeholder="Enter your message here"
+              rows="8"
+              spellcheck="false"
+            ></textarea>
+            <button type="submit">
+              <h4>Send an e-mail</h4>
+            </button>
+          </form>
+        </div>
+      </divider>
     </div>
   </div>
 </div>
