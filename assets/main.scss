@@ -78,7 +78,16 @@ ul.share-buttons .sr-only {
   max-height: 100px;
 }
 
+@media (max-width: 900px) {
+  .banner {
+    padding: 0 32px !important;
+  }
+}
+
 @media (max-width: 575px) {
+  .banner {
+    padding: 16px !important;
+  }
   .banner,
   .section {
     flex-direction: column !important;
@@ -94,12 +103,12 @@ ul.share-buttons .sr-only {
 }
 
 .banner {
-  padding: 64px;
+  padding: 0px 128px;
   background-color: pink;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 85vh;
+  height: calc(100vh - 56px);
   &__image {
     max-width: 350px;
   }
@@ -244,7 +253,7 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color: #f6bfca;
-  color: #101010;
+  color: #4a4a4a;
   border-radius: 1px;
   border: 0px solid #2c8898;
   cursor: pointer;
