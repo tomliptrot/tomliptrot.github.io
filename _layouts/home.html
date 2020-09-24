@@ -71,8 +71,8 @@ layout: default-nowrapper
       >
         <h4>Book a consultation</h4>
       </button>
-      <divider id="contact">
-        <div id="contact-form">
+      <divider class="contact">
+        <div class="contact__form">
           <form
             method="POST"
             action="https://formspree.io/xaylyvlj"
@@ -82,6 +82,13 @@ layout: default-nowrapper
               type="hidden"
               name="_subject"
               value="Contact request from ortom.co.uk"
+            />
+            <input
+              type="text"
+              name="_name"
+              placeholder="Your name"
+              required=""
+              class="contact__email"
             />
             <input
               type="email"

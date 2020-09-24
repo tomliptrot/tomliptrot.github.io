@@ -135,17 +135,16 @@ ul.share-buttons .sr-only {
   text-align: center;
 }
 
+.contact__form {
+  margin: 64px 32px;
+}
+
 .calendly-popup {
   text-align: center;
 }
 
-.contact {
-  margin: 64px 0px;
-}
-
 .contact__email {
   width: 100%;
-  margin-top: 32px;
 }
 
 button h4 {
@@ -240,10 +239,7 @@ textarea {
   border: 1px solid #4a4a4a;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-}
-input:focus,
-textarea:focus {
-  border: 1px solid #f6bfca;
+  font-size: 1.75rem;
 }
 
 textarea {
@@ -299,7 +295,8 @@ input[type] {
   /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
   background-color: #f1f1f1;
-  border: 1px solid #f1f1f1;
+  border: 0px solid #f1f1f1;
+  border-bottom: 4px solid #eeeeee;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
@@ -307,7 +304,7 @@ input[type] {
 textarea:focus,
 select:focus,
 input[type]:focus {
-  border: 1px solid #f6bfca;
+  border-bottom: 4px solid #982c61;
   outline: 0;
 }
 
