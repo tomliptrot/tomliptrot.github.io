@@ -97,9 +97,14 @@ ul.share-buttons .sr-only {
 .banner {
   padding: 0px 32px;
   background-color: pink;
-  height: calc(100vh - 56px);
+
+  // FOR TOM, whatever padding you add you will have to take away from the height.
+  // height: calc(100vh - 56px - X);
+  height: calc(100vh - 156px);
+  // padding-top: Xpx;
+  padding-top: 100px;
+
   display: flex;
-  align-items: center;
   justify-content: center;
   &__content {
     max-width: 800px;
