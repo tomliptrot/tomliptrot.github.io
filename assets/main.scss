@@ -78,17 +78,9 @@ ul.share-buttons .sr-only {
   max-height: 100px;
 }
 
-@media (max-width: 900px) {
-  .banner {
-    padding: 0 32px !important;
-  }
-}
-
 @media (max-width: 575px) {
-  .banner {
-    padding: 16px !important;
-  }
   .banner,
+  .banner__content,
   .section {
     flex-direction: column !important;
     text-align: center;
@@ -103,12 +95,17 @@ ul.share-buttons .sr-only {
 }
 
 .banner {
-  padding: 0px 128px;
+  padding: 0px 32px;
   background-color: pink;
+  height: calc(100vh - 56px);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: calc(100vh - 56px);
+  justify-content: center;
+  &__content {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+  }
   &__image {
     max-width: 350px;
   }
