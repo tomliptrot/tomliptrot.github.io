@@ -1,7 +1,114 @@
 ---
-layout: default
+layout: default-nowrapper
 ---
-<meta property="og:image" content="/assets/images/ortom/Ortom.png">
+
+<meta property="og:image" content="/assets/images/ortom/Ortom.png" />
+<link
+  href="https://assets.calendly.com/assets/external/widget.css"
+  rel="stylesheet"
+/>
+<script
+  src="https://assets.calendly.com/assets/external/widget.js"
+  type="text/javascript"
+></script>
 <div>
   {{ content }}
+  <div class="banner">
+    <div class="banner__content">
+      <div class="banner__text">
+        <h1>Solving data problems</h1>
+        <h2>Make AI work for you</h2>
+      </div>
+      <img class="banner__image" src="../assets/images/illustration-01.png" />
+    </div>
+  </div>
+  <div class="content">
+    <div class="section">
+      <div class="section__right">
+        <img class="section__image" src="../assets/images/diagram.png" />
+      </div>
+      <div class="section__left">
+        <h2>AI</h2>
+        <p>
+          Ortom can advise on data science, AI strategy and related topics. This
+          can be particularly useful for companies with lots of data but no data
+          scientists.
+        </p>
+      </div>
+    </div>
+    <div class="section reverse">
+      <div class="section__right">
+        <img class="section__image" src="../assets/images/line-chart.png" />
+      </div>
+      <div class="section__left">
+        <h2>Data Science</h2>
+        <p>
+          Ortom can advise on data science, AI strategy and related topics. This
+          can be particularly useful for companies with lots of data but no data
+          scientists.
+        </p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section__right">
+        <img class="section__image" src="../assets/images/timeline.png" />
+      </div>
+      <div class="section__left">
+        <h2>Training & Recruitment</h2>
+        <p>
+          Ortom can help you develop existing data science staff through
+          training - particularly in statistics, applied data science, and R. We
+          can also help you hire the best new data scientists - finding and
+          sifting through candidates and assisting with the interview process.
+        </p>
+      </div>
+    </div>
+    <div class="contact">
+      <button
+        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ortom/60min'});return false;"
+      >
+        <h4>Book a consultation</h4>
+      </button>
+      <divider class="contact">
+        <div class="contact__form">
+          <form
+            method="POST"
+            action="https://formspree.io/xaylyvlj"
+            _lpchecked="1"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="Contact request from ortom.co.uk"
+            />
+            <input
+              type="text"
+              name="_name"
+              placeholder="Your name"
+              required=""
+              class="contact__email"
+            />
+            <input
+              type="email"
+              name="_replyto"
+              placeholder="Your email"
+              required=""
+              class="contact__email"
+            />
+            <textarea
+              name="message"
+              cols="48"
+              id="textarea"
+              placeholder="Enter your message here"
+              rows="8"
+              spellcheck="false"
+            ></textarea>
+            <button type="submit">
+              <h4>Send an e-mail</h4>
+            </button>
+          </form>
+        </div>
+      </divider>
+    </div>
+  </div>
 </div>

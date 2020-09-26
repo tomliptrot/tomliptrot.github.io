@@ -4,34 +4,35 @@
 title: Home
 layout: home
 ---
-{: .center}
+
+<!-- {: .center}
 ![Ortom](/assets/images/ortom/Ortom logo transparent1.png)
 
-{: .center}
+{: .center} -->
 
-## Solving problems with data
-
-Do you struggle to get machine learning to deliver results?
-
-Are you getting the most out of your data?
+<!-- # Solving problems with data
 
 If you have a great idea for using AI but need guidance to make it a reality, Ortom is here to help.
 
-Ortom is a  data science consultancy run by Manchester based AI expert Tom Liptrot
+Ortom is a data science consultancy run by Manchester based AI expert Tom Liptrot
 
-We offer three main [services](/services):
+{: .center} -->
 
-## Consulting 
+<!-- # Services
+
+## Consulting
+
 Advising on data science and AI strategy and related topics.
 
 ## Contract work
+
 Working on 3-6 month data science projects.
 
 ## Training and recruitment
-Helping you to develop existing data science staff or hire new team members.
 
-If you would like to use data more effectively in your organisation, book an initial consultation <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ortom/60min'});return false;">here</a>. Let's start a conversation!
-
+Helping you to develop existing data science staff or hire new team members. -->
+<!--
+If you would like to use data more effectively in your organisation, book an initial consultation <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ortom/60min'});return false;">here</a>. Let's start a conversation! -->
 
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript">
