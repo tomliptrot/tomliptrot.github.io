@@ -94,8 +94,6 @@ ul.share-buttons .sr-only {
     bottom: auto !important;
     right: auto !important;
   }
-  .banner__right {
-  }
 }
 
 .content {
@@ -108,12 +106,8 @@ ul.share-buttons .sr-only {
 .banner {
   padding: 0px 32px;
   background-color: pink;
-
-  // FOR TOM, whatever padding you add you will have to take away from the height.
-  // height: calc(100vh - 56px - X);
-  height: calc(100vh - 156px);
-  // padding-top: Xpx;
-  padding-top: 100px;
+  height: calc(100vh - 57px);
+  padding-top: 1px;
 
   &__content {
     width: 100%;
@@ -123,7 +117,12 @@ ul.share-buttons .sr-only {
       margin-top: 8px;
     }
   }
-
+  &__text {
+    position: absolute;
+    // Distance from bottom and right
+    top: 0px;
+    left: 0px;
+  }
   &__image {
     position: absolute;
     // FORTOM max width of picture
