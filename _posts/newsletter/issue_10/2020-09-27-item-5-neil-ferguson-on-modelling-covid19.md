@@ -17,5 +17,5 @@ He has a couple of interesting insights into new research on the virus. Specific
 - People who are asymptotic are not at all infectious.  
 - Immunity is not permanent - last few months and decays away.
 
-Decisions are tradeoffs between saving lives and saving jobs - he's glad he honest have to make these decisions.
+Decisions are tradeoffs between saving lives and saving jobs - he's glad he doesn't have to make these decisions. So am I!
 
