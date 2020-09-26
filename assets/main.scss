@@ -300,14 +300,18 @@ input[type="button"]:hover:enabled {
   outline: 0;
 }
 
+::placeholder {
+  color: #eee;
+}
+
 textarea,
 select,
 input[type] {
-  color: #4a4a4a;
+  color: #fff;
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
-  background-color: #f1f1f1;
+  background-color: #587377;
   border: 0px solid #f1f1f1;
   border-bottom: 4px solid #eeeeee;
   border-radius: 4px;
@@ -317,7 +321,7 @@ input[type] {
 textarea:focus,
 select:focus,
 input[type]:focus {
-  border-bottom: 4px solid #982c61;
+  border-bottom: 4px solid #f6bfca;
   outline: 0;
 }
 
