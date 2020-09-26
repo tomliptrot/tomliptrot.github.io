@@ -8,9 +8,9 @@ title: Making language models more efficient
 word_count: 10,903
 ---
 
-Language models like GPT-3, Bert and others have recently transformed the filed of natural language processing. But they are often big and slow.
+In the last few years, transformer based language models like GPT-3, Bert and others have revolutionised natural language processing.  Here is how to make the more efficient.
 
-These models can do task like question answering, translation and language generation at near human levels. A big drawback of these models are that they are too big and slow to use. GPT-3 has 175 Billion parameters and is too big to run on all but the most expensive supercomputers.
+Language models are like the predictive text function on your mobile phone. Recent advances and massive amounts of compute and data have made them good at a range of tasks. These models can do tasks like question answering, translation and language generation at near human levels. However, a big drawback is that they are too big and slow to use. GPT-3 has 175 Billion parameters and is too large to run on all but the most expensive supercomputers.
 
-This paper is a survey of the huge amount of research that has gone into making them more efficient.
+This paper is a survey of the huge amount of research that has gone into making them more efficient. It provides a taxonomy for understanding the literature and an overview of the most promising approaches.
 

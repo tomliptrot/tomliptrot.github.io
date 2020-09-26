@@ -8,11 +8,11 @@ title: How much computation does a brain need?
 word_count: 9,494
 ---
 
-How much computation does a brain use? Accoring to this article its about  ~10<sup>14 </sup> - 10<sup>17 </sup>FLOP/s.  
+How much computation does a brain use? According to a new estimate its about  10<sup>14 </sup> - 10<sup>17 </sup>FLOP/s.  
 
-A FLOP is a 'Floating Point Operation', IE adding subtracting, dividing or multiplying two numbers. Doing lots of these per second is a good way of measuring computing power, and can (arguably) all be a good way of measuring brain power.
+A FLOP is a 'Floating Point Operation' (basically adding subtracting, dividing or multiplying two numbers). Doing lots of these per second is a good way of measuring computing power, and can (arguably) be a good way of measuring brain power.
 
-An Nvidia V100 GPU (~$10,000)  performs up to ~10<sup>14 </sup>FLOP/s. So according to this a brain could be made using somewhere between 1 and 1,000 GPUs. As this article admits, that would also depend on working out the software, data and architecture.
+For reference an iPhone can produce ~10<sup>10 </sup>FLOP/s and an Nvidia V100 GPU ($10,000)  about ~10<sup>14 </sup>FLOP/s. So according to this a brain could be made using somewhere between 1 and 1,000 GPUs. As this article admits, that would also depend on working out the software, data and architecture.
 
 I'm not sure how accurate this is, but its an interesting exercise -  a bit like one of those 'how many piano tuners are there in Birmingham' type interview questions. The latest language models are pushing these limits of computational power, but whether they are doing anything quite like a human brain is an open question.
 
