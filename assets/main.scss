@@ -78,13 +78,23 @@ ul.share-buttons .sr-only {
   max-height: 100px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 800px) {
   .banner,
   .banner__content,
   .section {
+    display: flex;
+    height: auto !important;
     flex-direction: column !important;
     align-items: center !important  ;
     text-align: center;
+  }
+  .banner__image {
+    position: relative !important;
+    width: 100% !important;
+    bottom: auto !important;
+    right: auto !important;
+  }
+  .banner__right {
   }
 }
 
@@ -105,22 +115,23 @@ ul.share-buttons .sr-only {
   // padding-top: Xpx;
   padding-top: 100px;
 
-  display: flex;
-  justify-content: start;
   &__content {
-    max-width: 1200px;
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: baseline;
+    height: 100%;
+    position: relative;
     h2 {
       margin-top: 8px;
     }
   }
+
   &__image {
-    margin-top: 32px;
-    margin-left: 32px;
-    max-width: 450px;
+    position: absolute;
+    // FORTOM max width of picture
+    max-width: 700px;
+    // width: Xpx
+    // Distance from bottom and right
+    bottom: 50px;
+    right: 50px;
   }
 }
 
