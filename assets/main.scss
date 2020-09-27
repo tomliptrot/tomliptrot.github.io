@@ -79,8 +79,6 @@ ul.share-buttons .sr-only {
 }
 
 @media (max-width: 800px) {
-  .banner,
-  .banner__content,
   .section {
     display: flex !important;
     height: auto !important;
@@ -88,6 +86,15 @@ ul.share-buttons .sr-only {
     align-items: center !important  ;
     text-align: center;
     padding: 16px !important;
+  }
+  .banner__content,
+  .banner {
+    display: flex !important;
+    height: auto !important;
+    align-items: center !important  ;
+    text-align: center;
+    padding: 16px !important;
+    flex-direction: column-reverse !important;
   }
   .banner__image {
     width: 100% !important;
