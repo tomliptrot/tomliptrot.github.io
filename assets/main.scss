@@ -82,13 +82,19 @@ ul.share-buttons .sr-only {
   .banner,
   .banner__content,
   .section {
-    display: flex;
+    display: flex !important;
     height: auto !important;
     flex-direction: column !important;
     align-items: center !important  ;
     text-align: center;
   }
   .banner__image {
+    position: relative !important;
+    width: 100% !important;
+    bottom: auto !important;
+    right: auto !important;
+  }
+  .banner__text {
     position: relative !important;
     width: 100% !important;
     bottom: auto !important;
@@ -156,6 +162,10 @@ ul.share-buttons .sr-only {
 
 .contact {
   text-align: center;
+}
+
+.typeform {
+  margin: 32px;
 }
 
 .contact__form {
