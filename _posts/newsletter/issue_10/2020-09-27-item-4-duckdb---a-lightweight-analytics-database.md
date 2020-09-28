@@ -10,7 +10,7 @@ word_count: null
 
 DuckDB is a new lightweight database, designed to support data science.
 
-The new system has been built by a research group in the Netherlands. It is columnar, which means it is optimised for selecting data from an entire column and doing operations on it. This is in contrast to most standard SQL engines (Postges, Mysql etc) which are optimised for selecting for a single row. This makes it perfectly suited to data science and machine learning tasks.
+The new system has been built by a research group in the Netherlands. It is columnar, which means it is optimised for selecting data from an entire column and doing operations on it. This is in contrast to most standard SQL engines (Postgres, Mysql etc) which are optimised for selecting a single row. This feature makes it perfectly suited to data science and machine learning tasks.
 
 It is also embedded, which means installing its is as easy as running `pip install duckdb`. No need for messing around on dedicated servers. This makes prototyping and developing quick and easy. I've been looking for something like this for a while for supporting applications that use machine learning.
 
