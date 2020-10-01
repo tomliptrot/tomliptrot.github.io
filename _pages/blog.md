@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: page-withnewsletter
 title: Blog
 permalink: /blog/
 ---
-
 
 <ul>
   {% for post in site.posts %}
@@ -20,17 +19,21 @@ permalink: /blog/
       {%- endif -%}</p>
 
     {% if post.image %}
+
   <img class="post-content img" src="{{ post.image | prepend: site.baseurl }}">
   {% endif %}
 
-  {{ post.excerpt }}
-  {% endfor %}
+{{ post.excerpt }}
+{% endfor %}
+
 </ul>
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
 ### Blogroll
+
 Here are a few blogs I like:
-* [R Bloggers](https://www.r-bloggers.com)
-* [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu/)
-* [Slate Star Codex](https://slatestarcodex.com/)
+
+- [R Bloggers](https://www.r-bloggers.com)
+- [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu/)
+- [Slate Star Codex](https://slatestarcodex.com/)
