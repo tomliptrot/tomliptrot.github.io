@@ -48,15 +48,23 @@ def get_word_count(url):
     return f'{len(words):,}'
 
 def combine_newsletter_articles(path):
-    path, time_to_publish = '21:00:00'):
     path = Path(path)
-    out_string = ''
-    for file in path.iterdir():
+    combined = []
+    for file in sorted(path.iterdir()):
         post = frontmatter.load(file)
         #add a title to each post and  combine inot one markdown file
-        post_md = '## ' + post_content['story_number'] + post['title']+ '\n' + post.content + '\n'
-        out_string = out_string + post_m
-    print(out_string)
+        title_of_post = f"## {post['story_number']}. {post['title']}"
+        combined.append(title_of_post)
+        combined.append(post.content)
+        if post['word_count']:
+            link = f"[📖 Read more here ({post['word_count']} words)📖]({post['link']})\n"
+        else:
+            link = f"[📖 Read more here 📖]({post['link']})\n"
+        combined.append(link)
+    combined_string = '\n\n'.join(combined)
+    doc = path / 'full-issue.md'
+    doc.write_text(combined_string) 
+    print(combined_string)
 
 def new_newsletter(issue_number, issue_date, newsletter_folder = '_posts/newsletter/', template = '_posts/post_template.md', time_to_publish = '21:00:00'):
 
