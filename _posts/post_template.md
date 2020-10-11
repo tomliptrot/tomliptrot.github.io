@@ -4,7 +4,8 @@ date:
 link: 
 story_number: 5
 title: 
-image: 
+image: /assets/images/
+category:
 ---
 200 characters for for intro
 

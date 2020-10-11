@@ -6,6 +6,7 @@ link: https://duckdb.org/
 story_number: 4
 title: DuckDB - a lightweight analytics database
 word_count: null
+catergory: tools
 ---
 
 DuckDB is a new lightweight database, designed to support data science.

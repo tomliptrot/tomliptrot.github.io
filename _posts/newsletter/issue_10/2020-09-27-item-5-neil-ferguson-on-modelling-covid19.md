@@ -6,6 +6,7 @@ link: https://www.bbc.co.uk/programmes/m000mt0h
 story_number: 5
 title: Neil Ferguson on modelling Covid-19
 word_count: null
+category: healthcare
 ---
 
 Prof Neil Ferguson ('Professor Lockdown') gives an overview of his life in science. 

@@ -6,6 +6,7 @@ link: https://www.arxiv-vanity.com/papers/2009.06732/
 story_number: 2
 title: Making language models more efficient
 word_count: '10,903'
+Category: nlp
 ---
 
 In the last few years, transformer based language models like GPT-3, Bert and others have revolutionised natural language processing.  Here is how to make them more efficient.

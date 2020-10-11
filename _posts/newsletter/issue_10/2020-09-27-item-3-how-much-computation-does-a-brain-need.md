@@ -6,6 +6,7 @@ link: https://www.openphilanthropy.org/blog/new-report-brain-computation
 story_number: 3
 title: How much computation does a brain need?
 word_count: '9,494'
+category: brain
 ---
 
 How much computation does a brain use? According to a new estimate its about  10<sup>14 </sup> - 10<sup>17 </sup>FLOP/s.  

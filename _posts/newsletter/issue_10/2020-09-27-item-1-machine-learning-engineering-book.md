@@ -6,6 +6,7 @@ link: http://www.mlebook.com/wiki/doku.php
 story_number: 1
 title: "Machine learning engineering book"
 word_count: null
+Category: machine learning
 ---
 
 A new book has been published about building machine learning systems.
