@@ -58,6 +58,11 @@ def get_word_count(url):
 
 def combine_newsletter_articles(path):
     path = Path(path)
+    full_issue = path / "full-issue.md"
+    try:
+        os.remove(full_issue)
+    except OSError:
+        pass
     combined = []
     for file in sorted(path.iterdir()):
         post = frontmatter.load(file)
@@ -71,9 +76,8 @@ def combine_newsletter_articles(path):
             link = f"[📖 Read more here 📖]({post['link']})\n"
         combined.append(link)
     combined_string = "\n\n".join(combined)
-    doc = path / "full-issue.md"
-    doc.write_text(combined_string)
-    print(combined_string)
+    full_issue.write_text(combined_string)
+    print(f"full issue saved at {full_issue}")
 
 
 def new_newsletter(
