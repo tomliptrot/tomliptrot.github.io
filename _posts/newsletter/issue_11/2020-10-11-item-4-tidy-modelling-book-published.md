@@ -25,4 +25,5 @@ Enter Tidy Models.
 
 A unified approach to modelling that is tidy and has a consistent API. 
 
-Great stuff. I've been watching the development of these packages for. Whole and it looks like they have matured a lot. Really good work from Max Khun.
+Great stuff. I've been watching the development of these packages for a while and it looks like they have matured a lot. Really good work from [Max Kuhn](https://www.linkedin.com/in/max-kuhn-864a9110/).
+
