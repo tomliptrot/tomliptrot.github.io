@@ -36,6 +36,10 @@ future: false
 feed:
   categories: ["r"]
 
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+
 include: ['_pages']
 
 header_pages:

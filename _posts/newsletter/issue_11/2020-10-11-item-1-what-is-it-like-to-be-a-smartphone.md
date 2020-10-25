@@ -1,5 +1,5 @@
 ---
-category: consciousness
+category: [consciousness, philosophy]
 date: 2020-10-11 21:00:00
 image: /assets/images/james-wainscoat-_f8IZ0gGS6E-unsplash.jpg
 layout: post

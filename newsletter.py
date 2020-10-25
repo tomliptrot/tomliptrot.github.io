@@ -49,15 +49,21 @@ def text_from_html(body):
 def get_word_count(url):
     print(url)
     req = request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    html = request.urlopen(req).read().decode("utf8")
-    text = text_from_html(html)
-    # Here you do whatever you want with text
-    words = text.split()
-    return f"{len(words):,}"
+    try:
+        html = request.urlopen(req).read().decode("utf8")
+        text = text_from_html(html)
+        # Here you do whatever you want with text
+        words = text.split()
+        return f"{len(words):,}"
+    except UnicodeDecodeError:
+        return 'null'
 
 
 def combine_newsletter_articles(path):
     path = Path(path)
+    outfile = Path('_posts/newsletter/full_issues/') / (path.name + '.md')
+    if outfile.exists():
+        outfile.unlink()
     combined = []
     for file in sorted(path.iterdir()):
         post = frontmatter.load(file)
@@ -65,14 +71,15 @@ def combine_newsletter_articles(path):
         title_of_post = f"## {post['story_number']}. {post['title']}"
         combined.append(title_of_post)
         combined.append(post.content)
-        if post["word_count"]:
+        if post.get("word_count"):
             link = f"[📖 Read more here ({post['word_count']} words)📖]({post['link']})\n"
         else:
             link = f"[📖 Read more here 📖]({post['link']})\n"
         combined.append(link)
+        combined.append("---")
     combined_string = "\n\n".join(combined)
-    doc = path / "full-issue.md"
-    doc.write_text(combined_string)
+    
+    outfile.write_text(combined_string)
     print(combined_string)
 
 
@@ -116,7 +123,7 @@ def rename(path, time_to_publish="21:00:00"):
         if not title:
             title = get_title(post["link"])
             post["title"] = str(title)
-        if not post["word_count"]:
+        if not post.get("word_count"):
             post["word_count"] = str(get_word_count(post["link"]))
         title = title.translate(str.maketrans("", "", string.punctuation))
         title = title.replace(" ", "-")

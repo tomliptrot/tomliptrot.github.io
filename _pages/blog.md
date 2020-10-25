@@ -4,9 +4,9 @@ title: Blog
 permalink: /blog/
 ---
 
-
+<!-- try this https://jekyllrb.com/docs/pagination/ -->
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:10%}
    <h2 class="post-title p-name" itemprop="name headline">
    <a href="{{ post.url }}">{{ post.title }}</a>
    </h2>
