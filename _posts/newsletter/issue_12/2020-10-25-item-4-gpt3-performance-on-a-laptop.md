@@ -19,7 +19,7 @@ A team from Germany has bucked the recent trend for ever bigger NLP models by us
 
 The task might be to table these as positive, negative or neutral. Usually this is done by gathering lots of examples, manually labelling them and training a model using that data. This new method suggests an alternative approach using much less labelled data, where the model has to fill in a sentence like this:
 
-- This was the best pizza I’ve ever had. The restaurant was ___________________
+- This was the best pizza I’ve ever had. The restaurant was _______________________________
 
 Here the missing word could be either 'good', 'OK', or 'bad'. Because language models trying on unlabelled data are good at competing phrases like this, you can get very good model performance using a very small amount of labelled data.
 
