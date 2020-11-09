@@ -17,13 +17,13 @@ A team from Germany has bucked the recent trend for ever bigger NLP models by us
 - "Pretty bad. You can get better sushi down the road for half the price."
 - "Pizza was average. Not worth what they were asking."
 
-The task might be to table these as positive, negative or neutral. Usually this is done by gathering lots of examples, manually labelling them and training a model using that data. This new method suggests an alternative approach using much less labelled data, where the model has to fill in a sentence like this:
+The task might be to label these reviews as positive, negative or neutral. Usually this is done by gathering lots of examples, manually labelling them and training a model using that data. Usually the model has no undertaking of the meaning of the label. This new method suggests an alternative approach. Here,  each sentence is appended with another unfinished one like this:
 
 - This was the best pizza I’ve ever had. The restaurant was ___________________
 
-Here the missing word could be either 'good', 'OK', or 'bad'. Because language models trying on unlabelled data are good at competing phrases like this, you can get very good model performance using a very small amount of labelled data.
+And the missing word could be either 'good', 'OK', or 'bad'. Because language models trained on unlabelled data are good at completing phrases like this, you can get very good model performance using a very small amount of labelled data.
 
-On some standard benchmarks this approach out performs cutting edge tech like GPT-3 with smaller models and less data.
+On some standard benchmarks this approach out performs cutting edge tech like GPT-3. A really nice idea, well executed.
 
 
 
