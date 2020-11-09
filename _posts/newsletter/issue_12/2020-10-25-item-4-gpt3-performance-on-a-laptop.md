@@ -19,7 +19,7 @@ A team from Germany has bucked the recent trend for ever bigger NLP models by us
 
 The task might be to label these reviews as positive, negative or neutral. Usually this is done by gathering lots of examples, manually labelling them and training a model using that data. Usually the model has no undertaking of the meaning of the label. This new method suggests an alternative approach. Here,  each sentence is appended with another unfinished one like this:
 
-- This was the best pizza I’ve ever had. The restaurant was ___________________
+- This was the best pizza I’ve ever had. The restaurant was _____________
 
 And the missing word could be either 'good', 'OK', or 'bad'. Because language models trained on unlabelled data are good at completing phrases like this, you can get very good model performance using a very small amount of labelled data.
 

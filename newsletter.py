@@ -56,12 +56,12 @@ def get_word_count(url):
         words = text.split()
         return f"{len(words):,}"
     except UnicodeDecodeError:
-        return 'null'
+        return "null"
 
 
 def combine_newsletter_articles(path):
     path = Path(path)
-    outfile = Path('_posts/newsletter/full_issues/') / (path.name + '.md')
+    outfile = Path("_posts/newsletter/full_issues/") / (path.name + ".md")
     if outfile.exists():
         outfile.unlink()
     combined = []
@@ -78,7 +78,7 @@ def combine_newsletter_articles(path):
         combined.append(link)
         combined.append("---")
     combined_string = "\n\n".join(combined)
-    
+
     outfile.write_text(combined_string)
     print(combined_string)
 

@@ -11,11 +11,9 @@ word_count: null
 
 Cambridge Analytica had no impact on Brexit and simply did bog standard online targeted advertising work, according to a report from the Informalities nation Commissioner.
 
-Back in 2018 a global scandal erupted over Cambridge Anaytica's  involvement in US and UK elections. Now the UK information Commissioner has published there finding about the episode:
-
-> "SCL/CA [*Cambridge Analytica]* were purchasing significant volumes of commercially available personal data  in the main about millions of US voters.... In the main their models were also built from ‘off the shelf’ analytical tools and there was evidence that their own staff were concerned about some of the public statements the leadership of the company were making about their impact and influence."
-
 On Brexit:
+
+> "SCL/CA [Cambridge Analytica] were purchasing significant volumes of commercially available personal data  in the main about millions of US voters, to combine it with the Facebook derived insight information they had obtained from an academic at Cambridge University, Dr Aleksandr Kogan, and elsewhere. In the main their models were also built from ‘off the shelf’ analytical tools and there was evidence that their own staff were concerned about some of the public statements the leadership of the company were making about their impact and influence."
 
 >  "SCL/CA were not involved in the EU referendum campaign in the UK "
 
