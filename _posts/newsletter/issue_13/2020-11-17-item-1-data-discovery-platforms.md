@@ -1,5 +1,5 @@
 ---
-category: null
+category: data
 date: 2020-11-17 08:30:00
 image: /assets/images/mars-67522_1280.jpg
 layout: post
@@ -17,7 +17,7 @@ Lots of big tech firms have been building platforms to help make this process mo
 
 It seems the combine natural language search (based on elastic search mostly) with easily accessible data on how data links together, how and when it has been used, and who owns the data.
 
-I'm not sure how easy it would be to integrate these systems in a new company - datasets are often speared across many systems including multiple clouds and various SaaS systems. 
+I'm not sure how easy it would be to integrate these systems in a new company - datasets are often spread across many systems including multiple clouds and various SaaS systems. 
 
 
 
