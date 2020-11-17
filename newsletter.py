@@ -88,7 +88,7 @@ def new_newsletter(
     issue_date,
     newsletter_folder="_posts/newsletter/",
     template="_posts/post_template.md",
-    time_to_publish="21:00:00",
+    time_to_publish="08:30:00",
 ):
     # TODO: add automatic issue number + date if none specifed
     # TODO: make a folder for images for each issue, or use this https://nhoizey.github.io/jekyll-postfiles/
@@ -112,9 +112,11 @@ def new_newsletter(
         frontmatter.dump(post_content, new_post)
 
 
-def rename(path, time_to_publish="21:00:00"):
-    path = Path(path)
-    for file in path.iterdir():
+def rename(issue_number,newsletter_folder="_posts/newsletter/"):
+    newsletter_folder = Path(newsletter_folder)
+    name = "issue_" + str(issue_number)
+    issue_folder = newsletter_folder / name
+    for file in issue_folder .iterdir():
         post = frontmatter.load(file)
         post_name = file.stem
         post_date = post_name[0:10]
@@ -128,9 +130,9 @@ def rename(path, time_to_publish="21:00:00"):
         title = title.translate(str.maketrans("", "", string.punctuation))
         title = title.replace(" ", "-")
         title = title.lower()
-        title = post_date + "-item-" + story_number + "-" + title + ".md"
+        title = f"{post_date}-item-{story_number}-{title}.md"
         frontmatter.dump(post, file)
-        file.rename(path / title)
+        file.rename(issue_folder / title)
 
 
 if __name__ == "__main__":
