@@ -30,11 +30,6 @@
                 <content>{{ post.content | xml_escape }}</content>
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
-                {% if post.link %}
-					<source>
-                    <id>{{ post.link}}</id>
-                    </source>
-				{% endif %}
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 			</item>
 		{% endfor %}
