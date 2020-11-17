@@ -9,13 +9,13 @@ title: How to hire people
 word_count: 4,065
 ---
 
-Hiring people in startups is really important and is often done badly.
+Hiring people in startups is important but is often done badly.
 
-One trick is simple: Don't hire:
+One simple trick: don't hire. As Eric Torenberg explains:
 
 > "One of the biggest mistakes I see founders make is that they hire too quickly. Once their startup raises $1M+, they immediately want to recruit 8-10 people to look "official," when in reality they should be focused on the mechanics of finding product market fit.
 >
 > One trick is to not mention headcount when telling other people how your startup is going — you want to measure your worth by your customer traction, not the size of your team."
 
-But if you do, plan it well, be methodical, know what you are looking for and move quickly.
+If you do want to hire, plan it well, be methodical, know what you are looking for and move quickly.
 

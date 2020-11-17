@@ -1,3 +1,9 @@
+Hi,
+
+Welcome to this weeks news letter. 5 Great articles on data science, AI, ML and startups. Please share if you enjoy it.
+
+I'm changing my sending day to every second Tuesday morning from now on. I hope you like this weeks articles.
+
 ## 1. Data discovery platforms
 
 Platforms are being developed to aid data discovery.
@@ -17,7 +23,7 @@ I'm not sure how easy it would be to integrate these systems in a new company - 
 
 ## 2. Frantic man live codes a neural network library
 
-Joel Grus live codes a neural network library in Python. 
+A video of Joel Grus creating a neural network library from scratch in Python. 
 
 Grus is a data scientist and presenter of the Adverserail learning podcast. In this YouTube video he builds a neural network library from scratch. It's really useful to see this - both for coding tips and understanding how neural networks work. He builds a basic library, including all of the key elements of a neural network, and then uses it to solve some simple problems.
 
@@ -74,3 +80,4 @@ This paper reviews [Catboost](https://catboost.ai/) which, alongside [Xgboost](h
 
 
 ---
+
