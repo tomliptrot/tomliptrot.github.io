@@ -10,6 +10,7 @@ from datetime import datetime
 from urllib import request
 from bs4 import BeautifulSoup
 from bs4.element import Comment
+from timefhuman import timefhuman
 
 
 def get_title(url):
@@ -82,21 +83,28 @@ def combine_newsletter_articles(path):
     outfile.write_text(combined_string)
     print(combined_string)
 
+def get_last_issue_number(
+    newsletter_folder="_posts/newsletter/",
+    ):
+    newsletter_folder=Path(newsletter_folder)
+    previous_issues=[int(f.name.replace('issue_', '')) for f in newsletter_folder.glob('issue_[0-9]*')]
+    return max(previous_issues)
 
 def new_newsletter(
-    issue_number,
-    issue_date,
+    issue_datetime=timefhuman('next tuesday at 08:30'),
+    issue_number=get_last_issue_number()+1,
     newsletter_folder="_posts/newsletter/",
     template="_posts/post_template.md",
-    time_to_publish="08:30:00",
 ):
-    # TODO: add automatic issue number + date if none specifed
     # TODO: make a folder for images for each issue, or use this https://nhoizey.github.io/jekyll-postfiles/
     # TODO: move to netlify
     newsletter_folder = Path(newsletter_folder)
     name = "issue_" + str(issue_number)
     new_folder = newsletter_folder / name
     new_folder.mkdir(parents=True, exist_ok=True)
+
+    issue_date = issue_datetime.strftime('%Y-%m-%d')
+    print(f'making issue number {issue_number} to be published at {issue_datetime}')
 
     # make 5 copies of the post template
     template = Path(template)
@@ -107,7 +115,7 @@ def new_newsletter(
         copyfile(template, new_post)
         post_content = frontmatter.load(template)
         post_content["story_number"] = i + 1
-        post_dttm = datetime.strptime(issue_date + time_to_publish, "%Y-%m-%d%H:%M:%S")
+        post_dttm = issue_datetime
         post_content["date"] = post_dttm
         frontmatter.dump(post_content, new_post)
 
