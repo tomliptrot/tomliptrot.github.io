@@ -11,6 +11,7 @@ from urllib import request
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 from timefhuman import timefhuman
+import webbrowser 
 
 
 def get_title(url):
@@ -119,12 +120,22 @@ def new_newsletter(
         post_content["date"] = post_dttm
         frontmatter.dump(post_content, new_post)
 
-
-def rename(issue_number,newsletter_folder="_posts/newsletter/"):
+def open_links(issue_number=get_last_issue_number(),newsletter_folder="_posts/newsletter/"):
     newsletter_folder = Path(newsletter_folder)
     name = "issue_" + str(issue_number)
     issue_folder = newsletter_folder / name
-    for file in issue_folder .iterdir():
+    new = 1
+    for file in issue_folder.iterdir():
+        post = frontmatter.load(file)
+        url = post['link']
+        webbrowser.get().open(url,new=new)
+        new = 2 
+
+def rename(issue_number=get_last_issue_number(),newsletter_folder="_posts/newsletter/"):
+    newsletter_folder = Path(newsletter_folder)
+    name = "issue_" + str(issue_number)
+    issue_folder = newsletter_folder / name
+    for file in issue_folder.iterdir():
         post = frontmatter.load(file)
         post_name = file.stem
         post_date = post_name[0:10]
@@ -132,6 +143,8 @@ def rename(issue_number,newsletter_folder="_posts/newsletter/"):
         title = post["title"]
         if not title:
             title = get_title(post["link"])
+            if not title:
+                title = 'title'
             post["title"] = str(title)
         if not post.get("word_count"):
             post["word_count"] = str(get_word_count(post["link"]))
