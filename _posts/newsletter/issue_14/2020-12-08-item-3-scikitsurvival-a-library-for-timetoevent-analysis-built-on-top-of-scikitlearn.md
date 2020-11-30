@@ -9,6 +9,9 @@ title: 'scikit-survival: A Library for Time-to-Event Analysis Built on Top of sc
 word_count: '136'
 ---
 
-- Almost all we data has some kind of censoring/ time to event element
-- Of then this is ignored or not treated propoerly
-- Lots of work on this in medine, not so much for ML
+Almost all we data has some kind of time related element. Often this is ignored.
+
+For example, when looking at customer churn. The event we are interested in is a customer cancelling their subscription. But given our data today we can't know if a given user would continue subscribing for years to come or if they might cancel tomorrow. This is called censoring and is handles using survival analysis.
+
+There is large body of work on how to deal wit this type of data, with origins in medicine (time to death or recurrence) and engineering (time to failure) . Scikit survival makes it easier to handle this type of data using the scikit-learn machine learning library for python.
+
