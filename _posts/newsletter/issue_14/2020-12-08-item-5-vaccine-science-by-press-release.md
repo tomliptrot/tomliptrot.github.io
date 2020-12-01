@@ -9,11 +9,10 @@ title: Vaccine science by press release
 word_count: 2,078
 ---
 
-AstraZeneca kind of messed up their virus announcement. 
+AstraZeneca kind of messed up its virus announcement. 
 
-It got one of either 62%, 90% or 70% efficacy. They made a mistake with the dosing of a small number of trial participants and then found that there was a better result in that group. Generally with clinical trials a protocol is pre-regsitred and results are reported against that. Any 'findings' outside of that protocol should be taken with a large pinch of salt. 
+It got one of either 62%, 90% or 70% efficacy. After a mistake with the dosing of a small number of trial participants, scientists found there was a better result in that group. Generally with clinical trials a protocol is pre-registered and results are reported against that. Any 'findings' outside of that protocol should be taken with a large pinch of salt.
 
-AZ only registered one dosage regimen.  Th problem with they type of subgroup analysis that they have done here is that there are many way it can result in spurious results. If you analyse enough subgroups eventually you will fins one where the drug worked better just due to chance. This is OK, and you can control for this, but the results are only valid once they have been confimenbrf thought further trials.
+AZ only registered one dosage regimen. The problem with the type of subgroup analysis here is that there are many ways in which it can result in spurious results. If you analyse enough subgroups eventually you will find one where the drug worked better simply due to chance. This is OK - you can control for this - but the results are only valid once they have been confirmed thought further trials.
 
 Maybe we shouldn't do science by press release.
-

@@ -9,9 +9,9 @@ title: Learning like people
 word_count: '750'
 ---
 
-Up until recently models learnt using labelled data but humans learnt using language. This is starting to change.
+Until recently, models learnt using labelled data and humans learnt using language. This is starting to change.
 
-It is starting to become possible to describe tasks using natural language so that the machines can learn. This allows much faster learning using less data. Which is similar to how humans operate. This opens the possibility of interacting with and trading computers in exactly the same way we do with humans. Models like GPT-2 and 3 and BERT have made this possible.
+It is becoming possible to describe tasks using natural language so that the machines can learn. This allows much faster learning using less data - which is similar to how humans operate. Models like GPT-2 and 3 and BERT have opened the possibility of interacting with and traning computers in exactly the same way we do with humans. 
 
 This research is similar to the [PET](https://github.com/timoschick/pet) paper linked to a couple of weeks ago and is a really exciting avenue of research. As the authors say:
 
