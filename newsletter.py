@@ -91,6 +91,13 @@ def get_last_issue_number(
     previous_issues=[int(f.name.replace('issue_', '')) for f in newsletter_folder.glob('issue_[0-9]*')]
     return max(previous_issues)
 
+def new_issue_details():
+    issue_number=get_last_issue_number()
+    newsletter_folder=Path("_posts/newsletter/")
+    name = "issue_" + str(issue_number)
+    issue_folder = newsletter_folder / name
+    return issue_folder, issue_number
+
 def new_newsletter(
     issue_datetime=timefhuman('next tuesday at 08:30'),
     issue_number=get_last_issue_number()+1,
@@ -152,6 +159,20 @@ def rename(issue_number=get_last_issue_number(),newsletter_folder="_posts/newsle
         title = title.replace(" ", "-")
         title = title.lower()
         title = f"{post_date}-item-{story_number}-{title}.md"
+        frontmatter.dump(post, file)
+        file.rename(issue_folder / title)
+
+def redate(new_date):
+    issue_folder, issue_number = new_issue_details()
+    for file in issue_folder.iterdir():
+        post = frontmatter.load(file)
+        post_name = file.stem
+        old_post_dttm = post['date']
+        old_post_time = old_post_dttm.strftime('%H:%M:%S')
+        post['date'] = datetime.strptime(f"{new_date} {old_post_time}", "%Y-%m-%d %H:%M:%S")
+        story_number = str(post["story_number"])
+        title = post["title"]
+        title = f"{new_date}-item-{story_number}-{title}.md"
         frontmatter.dump(post, file)
         file.rename(issue_folder / title)
 

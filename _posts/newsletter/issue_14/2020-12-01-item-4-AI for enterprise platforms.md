@@ -1,6 +1,6 @@
 ---
 category: null
-date: 2020-12-08 08:30:00
+date: 2020-12-01 08:30:00
 image: /assets/images/stock-1863880_1280.jpg
 layout: post
 link: https://mattturck.com/c3/

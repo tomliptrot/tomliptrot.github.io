@@ -1,6 +1,6 @@
 ---
 category: null
-date: 2020-12-08 08:30:00
+date: 2020-12-01 08:30:00
 image: /assets/images/books-1245690_1280.jpg
 layout: post
 link: http://ai.stanford.edu/blog/learning-from-language/

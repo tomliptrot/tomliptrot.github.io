@@ -1,6 +1,6 @@
 ---
 category: null
-date: 2020-12-08 08:30:00
+date: 2020-12-01 08:30:00
 image: /assets/images/syringe-417786_1280.jpg
 layout: post
 link: https://junkcharts.typepad.com/numbersruleyourworld/2020/11/good-vaccine-news-without-glorifying-faux-precision.html
