@@ -99,7 +99,7 @@ def new_issue_details():
     return issue_folder, issue_number
 
 def new_newsletter(
-    issue_datetime=timefhuman('next tuesday at 08:30'),
+    issue_datetime=timefhuman('tuesday at 08:30'),
     issue_number=get_last_issue_number()+1,
     newsletter_folder="_posts/newsletter/",
     template="_posts/post_template.md",
