@@ -1,14 +1,17 @@
 ---
 category: null
 date: 2020-12-15 08:30:00
-image: /assets/images/
+image: /assets/images/bread-2796393_1280.jpg
 layout: post
 link: https://rootsofprogress.org/alphafold-protein-folding-explainer
 story_number: 1
-title: What is the “protein folding problem”? A brief explanation
+title: What is the protein folding problem?
 word_count: 1,324
 ---
 
-200 characters for for intro
+Last week Google offshoot, Deepmind, announced they had effectively solved the "protein folding problem". 
 
-1,300 characters limit for linked in
+This problem involves predicting the 3D shape of millions of proteins from their chemical structure. It has been an unsolved and problem for biologists and computer scientists for decades and the solving of it is one of the most practical and impressive applications of Deepmind's technology to date. This article gives a nice explorer on what the problem is and why solving it is both hard and important.
+
+> Between protein folding and CRISPR, genetic engineering now has two very powerful new tools in its toolbox. Maybe the 2020s will be to biotech what the 1970s were to computing.
+
