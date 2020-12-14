@@ -72,6 +72,9 @@ def combine_newsletter_articles(path):
         # add a title to each post and  combine inot one markdown file
         title_of_post = f"## {post['story_number']}. {post['title']}"
         combined.append(title_of_post)
+        if post['image']:
+            post_image_url = f"https://ortom.co.uk{post['image']}"
+            combined.append(f"![{post['title']}]({post_image_url})")
         combined.append(post.content)
         if post.get("word_count"):
             link = f"[📖 Read more here ({post['word_count']} words)📖]({post['link']})\n"

@@ -1,10 +1,12 @@
 ## 1. What is the protein folding problem?
 
+![What is the protein folding problem?](https://ortom.co.uk/assets/images/bread-2796393_1280.jpg)
+
 Last week, Google offshoot Deepmind announced it had effectively solved the "protein folding problem". 
 
 This problem involves predicting the 3D shape of millions of proteins from their chemical structure. It has been an unsolved problem for biologists and computer scientists for decades and solving it one of the most practical and impressive applications of Deepmind's technology to date. This article offers a nice exploration of the problem and explains why solving it is both hard and important.
 
-> "Between protein folding and CRISPR, genetic engineering now has two very powerful new tools in its toolbox. Maybe the 2020s will be to biotech what the 1970s were to computing.""
+> "Between protein folding and CRISPR, genetic engineering now has two very powerful new tools in its toolbox. Maybe the 2020s will be to biotech what the 1970s were to computing.""*
 
 [📖 Read more here (1,324 words)📖](https://rootsofprogress.org/alphafold-protein-folding-explainer)
 
@@ -12,6 +14,8 @@ This problem involves predicting the 3D shape of millions of proteins from their
 ---
 
 ## 2. Infinite Bad Guy
+
+![Infinite Bad Guy](https://ortom.co.uk/assets/images/johannes-plenio-aWDgqexSxA0-unsplash.jpg)
 
 The best minds of my generation are working out how to make an infinite loop of Billie Eilish cover videos.
 
@@ -24,6 +28,8 @@ More important work form Google here: Billie Eilish cover songs all synced up us
 
 ## 3. Data platforms
 
+![Data platforms](https://ortom.co.uk/assets/images/music-5753565_1280.jpg)
+
 What's the difference between a data lake and a data warehouse? An analyst or a scientist?
 
 Recently the Data Driven NYC hosted a conversation between [Tristan Handy](https://twitter.com/jthandy?lang=en), founder & CEO of Fishtown Analytics (which makes DBT, a command line tool for doing data transformations) and [Jeremiah Lowin](https://twitter.com/jlowin), founder & CEO of [Prefect](https://www.prefect.io/) (which makes an orchestration tool that is a bit like, but supposedly superior to, Airflow). It was an interesting conversation.
@@ -34,7 +40,7 @@ Handy on Data Lakes:
 
 On data analysts:
 
->  "a data analyst is somebody who answers business questions with data, and they frequently will have a business or econ degree. And they often have learned all the technologies that are required to do a good job of answering those questions, whether that’s sometimes Excel, sometimes SQL, sometimes Python or R. But they don’t self-identify as technologists."
+> "a data analyst is somebody who answers business questions with data, and they frequently will have a business or econ degree. And they often have learned all the technologies that are required to do a good job of answering those questions, whether that’s sometimes Excel, sometimes SQL, sometimes Python or R. But they don’t self-identify as technologists."
 
 [📖 Read more here (10,186 words)📖](https://mattturck.com/dbtprefect/)
 
@@ -42,6 +48,8 @@ On data analysts:
 ---
 
 ## 4. Ethical implications of AI
+
+![Ethical implications of AI](https://ortom.co.uk/assets/images/track-3670209_1280.jpg)
 
 It can be helpful to categorise AI-driven tasks according to their complexity and ethical implications.
 
@@ -59,9 +67,11 @@ Typically of the Harvard Business Review, the entire world is reduced to 2x2 qua
 
 ---
 
-## 5. What about this idea of rapid antigen testing?
+## 5. Rapid antigen testing?
 
-Recently the UK government tried testing everybody in Liverpool for Covid-19. Some of this testing was done using fast turnaround radio antigen tests.
+![Rapid antigen testing?](https://ortom.co.uk/assets/images/conor-samuel--iPuEST6f9Y-unsplash.jpg)
+
+Recently the UK government tried testing everybody in Liverpool for Covid-19. Some of this testing was done using fast turnaround rapid antigen tests.
 
 An interesting discussion from Andrew Gelman: according to some people, mass antigen testing is obviously a good thing. If, however, it is so clearly good, why isn't it being done more widely already?
 

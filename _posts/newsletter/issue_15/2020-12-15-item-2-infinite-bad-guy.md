@@ -11,5 +11,4 @@ word_count: '0'
 
 The best minds of my generation are working out how to make an infinite loop of Billie Eilish cover videos.
 
-More important work form Google here. Billie Eilish cover songs all synced up using recurrent neural networks + an ungodly amount of compute resources. Great stuff.
-
+More important work form Google here: Billie Eilish cover songs all synced up using recurrent neural networks and an ungodly amount of compute resources. Great stuff.
