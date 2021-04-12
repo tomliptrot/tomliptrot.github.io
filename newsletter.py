@@ -77,9 +77,9 @@ def combine_newsletter_articles(path):
             combined.append(f"![{post['title']}]({post_image_url})")
         combined.append(post.content)
         if post.get("word_count"):
-            link = f"[📖 Read more here ({post['word_count']} words)📖]({post['link']})\n"
+            link = f"[📖 Read more ({post['word_count']} words)📖]({post['link']})\n"
         else:
-            link = f"[📖 Read more here 📖]({post['link']})\n"
+            link = f"[📖 Read more 📖]({post['link']})\n"
         combined.append(link)
         combined.append("---")
     combined_string = "\n\n".join(combined)

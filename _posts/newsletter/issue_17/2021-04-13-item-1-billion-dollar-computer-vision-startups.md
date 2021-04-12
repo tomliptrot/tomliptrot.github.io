@@ -11,13 +11,13 @@ word_count: 2,372
 
 Computer vision is where it all began. In 2012 Geoff Hinton and his team built a neural network that massively out-perfomed all other aproaches to recognising images. This breakthrough started the deep learning revolution.
 
-Now 10 years later this technology is begin commercialised by a group of hugely successful startups. The applications attend to be specific to particular industries and range from agrigulrturre to retail, to insurance to construction. Some examples:
+Now 10 years later, this technology is being commercialised by a group of hugely successful startups. The applications attend to be specific to particular industry and range from agriculture, retail, insurance and construction. Some examples:
 
  - [Ceres Imaging]( https://www.ceresimaging.net/) can accurately identify crops that need more or less water
  - [Standard](https://standard.ai/) make systems for checkout free shopping
  - [Tractable](https://tractable.ai/) a London based company that allows instant damage estimates for insurers
 
-I have not been hugely involved in computer vision, but it is intresting to see it's progess from experimental breakthrough technology, to an increasingly stable and mature  set of tools, though to eventual comercialisation over about 10 years. Making these things work is not about a general purpose model or algorithm so much as finding a niche application and specialising in it. I expect a similar trajectory for other areas (like NLP) over the next 5-10 years. 
+I have not been hugely involved in computer vision, but it is intresting to see it's progress from experimental breakthrough technology, to an increasingly stable and mature  set of tools, though to eventual comercialisation over about 10 years. Making these businesses work is not about a general purpose models or algorithm so much as finding a niche application and specialising in it. I expect a similar trajectory for other areas (like NLP) over the next 5-10 years. 
 
 **Why this matters:** AI has long overpromised and under-delivered, that might be beginning to change.
 
