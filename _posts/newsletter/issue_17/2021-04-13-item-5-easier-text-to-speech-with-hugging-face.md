@@ -15,5 +15,5 @@ Generally this has been a hard problem needing specialised domain knowledge and 
 
 Now the marvellous people at [Hugging Face](https://huggingface.co/) have made the best performing of these algorithms, Wave2Vec,  [available](https://huggingface.co/facebook/wav2vec2-base-960h) as part of its open source Transformers library. Hopefully this will make it easier for practitioners to make progress on building audio models using this as a starting point.
 
-**Why this matters:** Speech is the big new way of interacting with computers. The makes development open to all.
+**Why this matters:** speech is the big new way of interacting with computers. This makes development open to all.
 
