@@ -22,5 +22,4 @@ I have not been hugely involved in computer vision, but it is interesting to see
 Making these businesses work is not about a general purpose model or algorithm so much as finding a niche application and specialising in it. I expect a similar trajectory for other areas (like NLP) over the next 5-10 years. 
 
 **Why this matters:** AI has long overpromised and under-delivered - that might be beginning to change.
-hy this matters:** AI has long overpromised and under-delivered, that might be beginning to change.
 
