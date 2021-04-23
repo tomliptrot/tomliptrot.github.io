@@ -4,6 +4,7 @@ from pathlib import Path
 from shutil import copyfile
 import fire
 import frontmatter
+import urllib
 import string
 import sys
 from datetime import datetime
@@ -59,6 +60,8 @@ def get_word_count(url):
         return f"{len(words):,}"
     except UnicodeDecodeError:
         return "null"
+    except urllib.error.HTTPError:
+        return "null"
 
 
 def combine_newsletter_articles(path):
@@ -110,13 +113,15 @@ def new_newsletter(
     # TODO: make a folder for images for each issue, or use this https://nhoizey.github.io/jekyll-postfiles/
     # TODO: move to netlify
     newsletter_folder = Path(newsletter_folder)
-    name = "issue_" + str(issue_number)
-    new_folder = newsletter_folder / name
+    issue_name = "issue_" + str(issue_number)
+    new_folder = newsletter_folder / issue_name
     new_folder.mkdir(parents=True, exist_ok=True)
 
     issue_date = issue_datetime.strftime('%Y-%m-%d')
     print(f'making issue number {issue_number} to be published at {issue_datetime}')
-
+    images_folder = Path(f"assets/images/newsletter/{issue_name}")
+    images_folder.mkdir(parents=True, exist_ok=True)
+    
     # make 5 copies of the post template
     template = Path(template)
 
@@ -128,6 +133,7 @@ def new_newsletter(
         post_content["story_number"] = i + 1
         post_dttm = issue_datetime
         post_content["date"] = post_dttm
+        post_content["image"] = f"/assets/images/newsletter/{issue_name}/"
         frontmatter.dump(post_content, new_post)
 
 def open_links(issue_number=get_last_issue_number(),newsletter_folder="_posts/newsletter/"):
