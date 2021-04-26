@@ -12,7 +12,7 @@ I welcome the proposals and for the most part they seem appropriate and much nee
 
 **Why this matters:** On regulation, where the EU leads, others tend to follow. It's early days: expect this to run and run.
 
-[📖 Read more (0 words)📖](https://ec.europa.eu/commission/presscorner/detail/en/QANDA_21_1683)
+[📖 Read more 📖](https://ec.europa.eu/commission/presscorner/detail/en/QANDA_21_1683)
 
 
 ---
@@ -29,12 +29,12 @@ The [press release](https://news.microsoft.com/2021/04/12/microsoft-accelerates-
 
 **Why this matters:**  $20bn is a lot - this shows how important speech is likely to become.
 
-[📖 Read more (null words)📖](https://techcrunch.com/2021/04/12/microsoft-goes-all-in-on-healthcare-with-19-7b-nuance-acquisition/)
+[📖 Read more 📖](https://techcrunch.com/2021/04/12/microsoft-goes-all-in-on-healthcare-with-19-7b-nuance-acquisition/)
 
 
 ---
 
-## 3. What's wrong with MLOps
+## 3. What's wrong with MLops
 
 ![What's wrong with MLops](https://ortom.co.uk/assets/images/newsletter/issue_18/michal-matlon-4ApmfdVo32Q-unsplash.jpeg)
 
