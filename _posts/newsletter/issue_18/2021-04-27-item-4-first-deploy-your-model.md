@@ -17,4 +17,4 @@ This sort of approach (described as the Tracer Bullet approach in the excellent 
 
 I like the thinking behind this approach, but must say I don't always follow it. I tend to find that I need a different mindset for MLOps vs data exploration. Building a production system given a limited understanding of the data and domain can lock you into an initial conception of the problem. I like to keep initial data exploration and model building as lightweight as possible until I really understand both the data and solution. However, getting something deployed and tested in reality early is certainly a good idea.
 
-**Why this matters:** Model deployment can be tricky, thinking about it upfront can make things easier later.
+🛎️**Why this matters:** Model deployment can be tricky, thinking about it upfront can make things easier later.

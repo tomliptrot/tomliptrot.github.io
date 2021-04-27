@@ -10,7 +10,7 @@ The next level down ("high risk"), which would be heavily regulated, includes sp
 
 I welcome the proposals and for the most part they seem appropriate and much needed. However, I expect debate over this to rage for the next decade. The technology is rapidly developing and regulation will struggle to keep up. 
 
-**Why this matters:** On regulation, where the EU leads, others tend to follow. It's early days: expect this to run and run.
+🛎️ **Why this matters:** On regulation, where the EU leads, others tend to follow. It's early days: expect this to run and run.
 
 [📖 Read more 📖](https://ec.europa.eu/commission/presscorner/detail/en/QANDA_21_1683)
 
@@ -27,7 +27,7 @@ Nuance has been around since the 90s and has done a range of things, but is best
 
 The [press release](https://news.microsoft.com/2021/04/12/microsoft-accelerates-industry-cloud-strategy-for-healthcare-with-the-acquisition-of-nuance/) from Microsoft emphasised the access the company has in the healthcare market. Nuance systems are used in 77% of US hospitals. However, the aquisition will also allow access to Nuance's expertise in using a machine learning system at scale in production.
 
-**Why this matters:**  $20bn is a lot - this shows how important speech is likely to become.
+🛎️ **Why this matters:**  $20bn is a lot - this shows how important speech is likely to become.
 
 [📖 Read more 📖](https://techcrunch.com/2021/04/12/microsoft-goes-all-in-on-healthcare-with-19-7b-nuance-acquisition/)
 
@@ -50,7 +50,7 @@ When deciding what algorithm/database/platform/stack to use, don't base your dec
 
 Most of the problems of ML are just engineering problems; we have methods and approaches, developed over decades, that solve those. There are new problems in MLOps but many have simple solutions. It's good to hear the voice of reason.
 
-**Why this matters:** MLOps is certainly important but beware of the hype mongers and use common sense.
+🛎️  **Why this matters:** MLOps is certainly important but beware of the hype mongers and use common sense.
 
 [📖 Read more (1,893 words)📖](https://laszlo.substack.com/p/whats-wrong-with-mlops)
 
@@ -69,7 +69,7 @@ This sort of approach (described as the Tracer Bullet approach in the excellent 
 
 I like the thinking behind this approach, but must say I don't always follow it. I tend to find that I need a different mindset for MLOps vs data exploration. Building a production system given a limited understanding of the data and domain can lock you into an initial conception of the problem. I like to keep initial data exploration and model building as lightweight as possible until I really understand both the data and solution. However, getting something deployed and tested in reality early is certainly a good idea.
 
-**Why this matters:** Model deployment can be tricky, thinking about it upfront can make things easier later.
+🛎️**Why this matters:** Model deployment can be tricky, thinking about it upfront can make things easier later.
 
 [📖 Read more (1,663 words)📖](https://www.bodyworkml.com/posts/scikit-learn-meet-production)
 
@@ -88,7 +88,7 @@ Attention is a concept that has been successfully used in machine learning \(see
 
 Attention is how the brain selects a subset of information it perceives as being particularly important. This mechanism is still not completely understood in the brain, but clues as to how it works could be useful in inspiring the next generation of ML models.
 
-**Why this matters:** Attention is a key concept in ML, inspired by the brain.
+🛎️ **Why this matters:** Attention is a key concept in ML, inspired by the brain.
 
 [📖 Read more (3,733 words)📖](https://thegradient.pub/attention-in-human-brain-and-its-applications-in-ml/)
 

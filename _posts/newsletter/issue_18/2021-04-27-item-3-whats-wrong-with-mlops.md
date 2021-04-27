@@ -21,4 +21,5 @@ When deciding what algorithm/database/platform/stack to use, don't base your dec
 
 Most of the problems of ML are just engineering problems; we have methods and approaches, developed over decades, that solve those. There are new problems in MLOps but many have simple solutions. It's good to hear the voice of reason.
 
-**Why this matters:** MLOps is certainly important but beware of the hype mongers and use common sense.
+🛎️  **Why this matters:** MLOps is certainly important but beware of the hype mongers and use common sense.
+
