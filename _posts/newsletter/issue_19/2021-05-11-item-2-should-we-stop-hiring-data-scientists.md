@@ -1,5 +1,5 @@
 ---
-category: datascience
+category:  business
 date: 2021-05-11 08:30:00
 image: /assets/images/newsletter/issue_19/clem-onojeghuo-fY8Jr4iuPQM-unsplash.jpeg
 layout: post

@@ -5,7 +5,7 @@ link:
 story_number: 5
 title: 
 image: /assets/images/
-category:
+category: machinelearning | mlops | business | philosophy | talks | code
 ---
 200 characters for for intro
 

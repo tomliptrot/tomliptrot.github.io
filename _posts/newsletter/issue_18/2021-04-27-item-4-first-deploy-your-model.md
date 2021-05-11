@@ -1,5 +1,5 @@
 ---
-category: null
+category:  mlops
 date: 2021-04-27 08:30:00
 image: /assets/images/newsletter/issue_18/birmingham-museums-trust-9GSGllMJCeA-unsplash.jpeg
 layout: post

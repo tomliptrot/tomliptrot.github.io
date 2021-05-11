@@ -1,5 +1,5 @@
 ---
-category: null
+category:  machinelearning
 date: 2021-04-27 08:30:00
 image: /assets/images/newsletter/issue_18/chuttersnap-gDDas5_ALRw-unsplash.jpeg
 layout: post

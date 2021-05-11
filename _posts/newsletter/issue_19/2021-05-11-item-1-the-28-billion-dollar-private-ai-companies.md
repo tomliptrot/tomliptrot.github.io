@@ -1,5 +1,5 @@
 ---
-category: null
+category:  business 
 date: 2021-05-11 08:30:00
 image: /assets/images/newsletter/issue_19/james-lee-qSf_4bNsoWc-unsplash.jpeg
 layout: post

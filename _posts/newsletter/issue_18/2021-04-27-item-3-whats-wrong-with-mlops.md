@@ -1,5 +1,5 @@
 ---
-category: null
+category:  mlops
 date: 2021-04-27 08:30:00
 image: /assets/images/newsletter/issue_18/michal-matlon-4ApmfdVo32Q-unsplash.jpeg
 layout: post
