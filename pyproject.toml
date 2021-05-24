@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "tomliptrot.github.io"
+name = "newsletter"
 version = "0.1.0"
 description = ""
 authors = ["Tom Liptrot <tom@ortom.co.uk>"]
@@ -11,6 +11,7 @@ bs4 = "^0.0.1"
 timefhuman = "^0.0.5"
 python-frontmatter = "^1.0.0"
 ipython = "^7.22.0"
+typer = "^0.3.2"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^20.8b1", allow-prereleases = true}
@@ -18,3 +19,6 @@ black = {version = "^20.8b1", allow-prereleases = true}
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+newsletter = "newsletter.newsletter:main"
