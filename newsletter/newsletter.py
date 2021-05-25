@@ -110,6 +110,27 @@ def combine(
     print(combined_string)
 
 
+def seperate(
+    issue_number=get_last_issue_number(), newsletter_folder=Path("_posts/newsletter/")
+):
+    """Opposite of combine"""
+    name = "issue_" + str(issue_number)
+    issue_folder = newsletter_folder / name
+    combined = Path("_posts/newsletter/full_issues/") / (name + ".md")
+    combined_text = combined.read_text()
+    combined_text = combined_text.split("---")
+    for item, file in zip(combined_text, sorted(issue_folder.iterdir())):
+        post = frontmatter.load(file)
+        # remove first three lines
+        item = item.split("\n")[3:]
+        # remove last lines
+        item = item[:-4]
+        item = "\n".join(item)
+        post.content = item
+        print(item)
+        frontmatter.dump(post, file)
+
+
 def new_issue_details():
     issue_number = get_last_issue_number()
     newsletter_folder = Path("_posts/newsletter/")

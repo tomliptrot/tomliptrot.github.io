@@ -9,13 +9,12 @@ title: The really open NLP fightback
 word_count: 2,538
 ---
 
-Large language models are have become the property of big tech firms. Open science is starting to fight back.
+Large language models have become the property of big tech firms. Open science is starting to fight back.
 
-Large language models like GPT-3 have show advanced performance across a range of language tasks.  Google have also developed a new system called LaMDA. the ironically named  Open AI to keep models closed. Open AI recently signed an exclusive deal with Microsoft over access to their GPT-3 model.
+Large language models like GPT-3 have shown advanced performance across a range of language tasks. Howver, the ironically named Open AI recently signed an exclusive deal with Microsoft over access to its GPT-3 model.Other tech fimrs are developing thier own closed models.
 
-These models are very effective, but it is difficult for researchers to asses how they perfume with respect to ethical considerations sushi as biases including racism, sexism and abusive ideas.
+These models are very effective, but it is difficult for researchers to assess how they perform with respect to ethical considerations such as biases including racism, sexism and abusive ideas.
 
-NLP startup HuggingFace are now [coordinating](https://bigscience.huggingface.co/en/#!index.md) a project to build a set of large multilingual language models that are fully open and available for researchers to study. 
+NLP startup Hugging Face is now [coordinating](https://bigscience.huggingface.co/en/#!index.md) a project to build a set of large multilingual language models that are fully open and available for researchers to study. 
 
 🛎️ **Why this matters:** Science and software work best when they are open.
-
