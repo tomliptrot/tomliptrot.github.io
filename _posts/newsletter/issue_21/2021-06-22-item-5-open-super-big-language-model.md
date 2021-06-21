@@ -6,14 +6,12 @@ layout: post
 link: https://6b.eleuther.ai/
 story_number: 5
 title: Open super big language model
-word_count: null
+word_count: '9'
 ---
+A new, open, alternative to the super big language model GPT-3 has been released. It's got 6 billion parameters and is trained on [The Pile](https://pile.eleuther.ai/) using [Jax](https://github.com/google/jax). It wrote the following about itself:
 
-A new, open, alternative to the super big language model GPT-3 has been released. It wrote the following about itself:
+> "Written with the backdrop of the fast-changing era of AI, GPT-3 is a new, open-source project that focuses on building a more human-like open-source text generator. GPT-3 aims to break the GPT (Generative PreTexts from the Chinese Room) and language models are very limited in modeling languages and the creativity of imagination. We are bringing it to mainstream level and promising a huge impact in machine translation, question answering, and code generation.""
 
-> "rpwlcr = versatile automatic writing – Genesis writing loop based on Peter Overlefsholtz's formula inspired by and derived from MUDCon VoX scribble [Yes; it would be silly for GPT-3 to not even claim that – LD] used for learning to be GPT-3 creator Zihon Rusakowski ; good tools are eternal best biceps ; PrimalScribbler family sed (error recognition and corrective drafting, safe backups); BEGIN UPWARD pointing source prototype literate interpreters ALL MAY READ PROTOTYPE written for aspiring TP. XLIT given-alice paths allowed (eg: Paul Lewis paths; especially handkerchief's application of Katipussi fonts/following sounds to construct Polish apostrophe saving pronoun), even improving usability (Hmmm, N), or paradigm engineering (C, Homolateral exophony ). only practical contemporary POST written in 010, ten seconds – bps · in FRPEH R Q00 xxQ? S9 9993 IRNT AP1ED 15 36 00300 15 O37 B° jí2IMMìGIC à€ c00«JJ©R u é©~ êv "ú_ ®, a"
-
-Hmm - that's not perfect, is it? A sick parrot?
+Hmm - that's not perfect, is it? A sick parrot? Have a go [here](https://6b.eleuther.ai/).
 
 🛎️ **Why this matters:** The singularity is far, but at least it's open.
-
