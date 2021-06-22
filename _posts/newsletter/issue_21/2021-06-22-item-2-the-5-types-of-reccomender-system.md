@@ -5,7 +5,7 @@ image: /assets/images/newsletter/issue_21/peter-bond-KfvknMhkmw0-unsplash.jpeg
 layout: post
 link: https://eugeneyan.com/writing/patterns-for-personalization/
 story_number: 2
-title: The 5 types of reccomender system
+title: "The 5 types of reccomender system"
 word_count: 5,207
 ---
 Personalisation and recommendation are one of the most most effective applications of machine learning. 

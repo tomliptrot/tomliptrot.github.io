@@ -5,7 +5,7 @@ image: /assets/images/newsletter/issue_21/andrea-lightfoot-Pj6fYNRzRT0-unsplash.
 layout: post
 link: https://www.arxiv-vanity.com/papers/2007.09560/
 story_number: 4
-title: Do algorithms dream of simulated sheep?
+title: "Do algorithms dream of simulated sheep?"
 word_count: 12,835
 ---
 Dreams are a way to stop the brain overfitting, according to a new theory.

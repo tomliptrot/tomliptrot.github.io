@@ -5,7 +5,7 @@ image: /assets/images/newsletter/issue_21/nick-fewings-dRCQJZoTYCc-unsplash.jpeg
 layout: post
 link: https://www.arxiv-vanity.com/papers/2106.03253/
 story_number: 1
-title: Don't use deep learning for tabular data
+title: "Don't use deep learning for tabular data"
 word_count: 4,445
 ---
 Most business data is tabular (think Excel or SQL type data), and deep learning is generally not the best tool for modelling it.
