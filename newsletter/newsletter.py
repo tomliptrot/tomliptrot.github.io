@@ -140,13 +140,12 @@ def new_issue_details():
 
 
 def new(
-    issue_datetime=timefhuman("tuesday at 08:30"),
+    issue_datetime=timefhuman("tuesday at 07:30"),
     issue_number=get_last_issue_number() + 1,
     newsletter_folder="_posts/newsletter/",
     template="_posts/post_template.md",
 ):
-    # TODO: make a folder for images for each issue, or use this https://nhoizey.github.io/jekyll-postfiles/
-    # TODO: move to netlify
+     # TODO: move to netlify
     newsletter_folder = Path(newsletter_folder)
     issue_name = "issue_" + str(issue_number)
     new_folder = newsletter_folder / issue_name
