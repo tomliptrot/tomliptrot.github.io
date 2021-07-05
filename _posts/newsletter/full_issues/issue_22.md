@@ -8,15 +8,15 @@ In the *[Hitchhikers Guide to the Galaxy](https://www.amazon.co.uk/dp/B003GK2180
 
 It was 42. Unfortunately no one knew what the question was. 
 
-So the mice build a computer the size of a small planet (called "Earth") to calculate the Ultimate Question. That turned out to be turned out to be "*What do you get when you multiply six by nine?*".
+So the mice build a computer the size of a small planet (called "Earth") to calculate the Ultimate Question. That turned out to be "*What do you get when you multiply six by nine?*".
 
 This type of problem is know in AI circles as the "Alignment Problem" and is commonly faced in business.
 
-A company used ML  to predict which customers would leave. The results  where then used to target promotions at those customners enticing them to stay, which did not have the desired result. They should have asked was a more focused question like “Given a budget of $x million, which customers should we target with a retention campaign?”.
+A company used ML  to predict which customers would leave. The results  where then used to target promotions at those customers enticing them to stay, which did not have the desired result. They should have asked a more focused question like “Given a budget of $x million, which customers should we target with a retention campaign?”.
 
 This [article](https://hbr.org/2021/07/why-you-arent-getting-more-from-your-marketing-ai) provides some useful pointers on how to arrive at the right question.
 
-🛎️ **Why this matters:** Asking the wrong question is the most common reason why ML projects fail.
+🛎️ **Why this matters:** Asking the wrong question is the most common reason ML projects fail.
 
 [📖 Read more (3,815 words)📖](https://hbr.org/2021/07/why-you-arent-getting-more-from-your-marketing-ai)
 
@@ -27,11 +27,11 @@ This [article](https://hbr.org/2021/07/why-you-arent-getting-more-from-your-mark
 
 ![Don't use neural nets for recommenders either (maybe)](https://ortom.co.uk/assets/images/newsletter/issue_22/franki-chamaki-wkvKZR4e2OI-unsplash.jpeg)
 
-Recommender systems are used extensively by online businesses. Systems using neural networks may not be as effective as advertised
+Recommender systems are used extensively by online businesses. Systems using neural networks may not be as effective as advertised.
 
-Over the last 4-5 years deep learning has become a popular technique in recommender systems. Recent [research](https://thedataexchange.media/questioning-the-efficacy-of-neural-recommendation-systems) conducted by [Paolo Cremonesi](https://paolocremonesi.faculty.polimi.it/) is  and [Maurizio Ferrari Dacrema](https://mauriziofd.github.io/) has found that many pulsed findings are difficult to replicate and tend not to prove significant improvement over simpler methods like K-nearest neighbours.
+Over the last 4-5 years deep learning has become a popular technique in recommender systems. Recent [research](https://thedataexchange.media/questioning-the-efficacy-of-neural-recommendation-systems) conducted by [Paolo Cremonesi](https://paolocremonesi.faculty.polimi.it/) and [Maurizio Ferrari Dacrema](https://mauriziofd.github.io/) has found that many pulsed findings are difficult to replicate and tend not to prove significant improvement over simpler methods like K-nearest neighbours.
 
-The difficulty in reproducing research is a broad problem faced across since. Another problem for recommender systems is that there is not a single, large data set like Imagenet that is used by all researchers. Lots of published results use deep learning, but it is not the best for performance - at least some of the reason for this is that deep-learning is 'trendy' and more likely to get accepted by journals and conferences.
+The difficulty in reproducing research is a broad problem faced across science. Another problem for recommender systems is that there is not a single, large data set like Imagenet that is used by all researchers. Lots of published results use deep learning, but it is not the best for performance - at least some of the reason for this is that deep-learning is 'trendy' and more likely to get accepted by journals and conferences.
 
 🛎️ **Why this matters:** Unfortunately, we should take all published research with a pinch of salt. Beware fashions!
 
@@ -63,7 +63,7 @@ The tool is built using the same types of language model behind GPT-3 and BERT, 
 
 Using machine learning models in a business setting is very different from academia or Kaggle.
 
-Instead of trying to work out HOW to do things, you often have to work out WHAT to do. According to a new [article](https://explosion.ai/blog/applied-nlp-thinking) by [Ines Montani](https://www.linkedin.com/in/inesmontani/) at Explosion AI, applied ML is more like running a restaurant than knowing how to cook. When you cook, you need to know how to use equipment, work with ingredients and reproduce recipes. When you run a restaurant you need to know how to cook but you also need to select dishes that work well together, source ingredients optimise profit and ensure reliability.
+Instead of trying to work out HOW to do things, you often have to work out WHAT to do. According to a new [article](https://explosion.ai/blog/applied-nlp-thinking) by [Ines Montani](https://www.linkedin.com/in/inesmontani/) at Explosion AI, applied ML is more like running a restaurant than knowing how to cook. When you cook, you need to know how to use equipment, work with ingredients and reproduce recipes. When you run a restaurant you need to know how to cook but you also need to select dishes that work well together, source ingredients, optimise profit and ensure reliability.
 
 Applied ML is more about deciding what to cook, and less about how to cook it. This is something that doesn't tend to get taught and can take a long time to learn.
 
@@ -74,21 +74,21 @@ Applied ML is more about deciding what to cook, and less about how to cook it. T
 
 ---
 
-## 5. Where's my self driving car!?
+## 5. Where's my self driving car?!
 
 ![Where's my self driving car!?](https://ortom.co.uk/assets/images/newsletter/issue_22/aditya-chinchure-H0OSpZ4vJDo-unsplash.jpeg)
 
 Over the last decade we have been promised self driving cars 'soon' - what's going on?
 
-AI pioneer Andrej Karpathy, Director of AI at Tesla gives a fascinating [talk](https://youtu.be/g6bOwQdCJrc) at the Conference on Computer Vision and Pattern Recognition. Updating us on where they are. It has some interesting titbits:
+AI pioneer Andrej Karpathy, Director of AI at Tesla, gives a fascinating [talk](https://youtu.be/g6bOwQdCJrc) at the Conference on Computer Vision and Pattern Recognition. Updating us on where they are. It has some interesting titbits:
 
 ➡ Using vision to predict depth and velocity. No need for RADAR or detailed 3d maps.
 
 ➡ Collecting real data from Tesla fleet, labelling very well and carefully.
 
-➡ Auto labelling as a good source of data. Using complex models with low latency to build training data from lighter, more specialist models
+➡ Auto labelling as a good source of data. Using complex models with low latency to build training data from lighter, more specialist models.
 
-➡ Separate networks for each type of output - detection, attributes, kinematics, trajectory etc.
+➡ Separate networks for each type of output - detection, attributes, kinematics, trajectory, etc.
 
 ➡ Nice release and validation process. Unit tests, shadow modes.
 
