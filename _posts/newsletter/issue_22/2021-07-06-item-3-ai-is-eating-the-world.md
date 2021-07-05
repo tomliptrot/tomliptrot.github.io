@@ -8,7 +8,6 @@ story_number: 3
 title: AI is eating the world
 word_count: 2,436
 ---
-
 Is a future coming where AI will write the code that will build new AI that will build new AI? Maybe...
 
 Github, the leading version control hosting site (owned by Microsoft) has released a new [tool](https://copilot.github.com/) that has been built with the AI research company OpenAI. You enter a small amount of code, or even a description of what you want, and the tool fills in the rest. Examples shown are pretty impressive.

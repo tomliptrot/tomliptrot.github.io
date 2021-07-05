@@ -8,18 +8,17 @@ story_number: 5
 title: Where's my self driving car!?
 word_count: '23'
 ---
-
 Over the last decade we have been promised self driving cars 'soon' - what's going on?
 
-AI pioneer Andrej Karpathy, Director of AI at Tesla gives a fascinating [talk](https://youtu.be/g6bOwQdCJrc) at the Conference on Computer Vision and Pattern Recognition. Updating us on where they are. It has some interesting titbits:
+AI pioneer Andrej Karpathy, Director of AI at Tesla, gives a fascinating [talk](https://youtu.be/g6bOwQdCJrc) at the Conference on Computer Vision and Pattern Recognition. Updating us on where they are. It has some interesting titbits:
 
-➡ Using vision to predict depth and velocity. No need for RADAR or detailed 3d maps.
+➡ Using vision to predict depth and velocity. No need for RADAR or detailed 3D maps.
 
-➡ Collecting real data from Tesla fleet, labelling very well and carefully.
+➡ Collecting huge volumes of data from Tesla fleet, labelling very well and carefully.
 
-➡ Auto labelling as a good source of data. Using complex models with low latency to build training data from lighter, more specialist models
+➡ Auto labelling as a good source of data. Using complex, slow models to build training data for lighter, more specialist models.
 
-➡ Separate networks for each type of output - detection, attributes, kinematics, trajectory etc.
+➡ Separate networks for each type of output - detection, attributes, kinematics, trajectory, etc.
 
 ➡ Nice release and validation process. Unit tests, shadow modes.
 

@@ -12,7 +12,7 @@ So the mice build a computer the size of a small planet (called "Earth") to calc
 
 This type of problem is know in AI circles as the "Alignment Problem" and is commonly faced in business.
 
-A company used ML  to predict which customers would leave. The results  where then used to target promotions at those customers enticing them to stay, which did not have the desired result. They should have asked a more focused question like “Given a budget of $x million, which customers should we target with a retention campaign?”.
+A company used ML  to predict which customers would leave. The results were then used to target promotions at those customers enticing them to stay. They did not. The company should have asked a more focused question like “Given a budget of $x million, which customers should we target with a retention campaign?”.
 
 This [article](https://hbr.org/2021/07/why-you-arent-getting-more-from-your-marketing-ai) provides some useful pointers on how to arrive at the right question.
 
