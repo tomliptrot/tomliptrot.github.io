@@ -7,6 +7,7 @@ link: https://youtu.be/g6bOwQdCJrc
 story_number: 5
 title: Where's my self driving car!?
 word_count: '23'
+important: "An interesting look behind the scenes at Tesla, but full autonomy is still just over the horizon..."
 ---
 Over the last decade we have been promised self driving cars 'soon' - what's going on?
 

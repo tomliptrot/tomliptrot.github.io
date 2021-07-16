@@ -12,6 +12,9 @@ timefhuman = "^0.0.5"
 python-frontmatter = "^1.0.0"
 ipython = "^7.22.0"
 typer = "^0.3.2"
+mailchimp-transactional = "^1.0.31"
+mailchimp-marketing = "^3.0.54"
+markdown2 = "^2.4.0"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^20.8b1", allow-prereleases = true}

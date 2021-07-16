@@ -14,6 +14,9 @@ from bs4.element import Comment
 from timefhuman import timefhuman
 import webbrowser
 import typer
+import mailchimp_marketing as MailchimpMarketing
+from mailchimp_marketing.api_client import ApiClientError
+import markdown2
 
 
 def get_title(url):
@@ -145,7 +148,7 @@ def new(
     newsletter_folder="_posts/newsletter/",
     template="_posts/post_template.md",
 ):
-     # TODO: move to netlify
+    # TODO: move to netlify
     newsletter_folder = Path(newsletter_folder)
     issue_name = "issue_" + str(issue_number)
     new_folder = newsletter_folder / issue_name
@@ -227,6 +230,68 @@ def redate(new_date):
         title = f"{new_date}-item-{story_number}-{title}.md"
         frontmatter.dump(post, file)
         file.rename(issue_folder / title)
+
+
+def deploy(
+    subject_line=None,
+    campaign_id=None,
+    issue_number=get_last_issue_number(),
+    newsletter_folder="_posts/newsletter/",
+    LIST_ID="7ecb50801c",
+    TEMPLATE_ID=10020578,
+):
+    newsletter_folder = Path(newsletter_folder)
+    name = "issue_" + str(issue_number)
+    if not subject_line:
+        subject_line = name
+    issue_folder = newsletter_folder / name
+    sections = []
+    for file in sorted(issue_folder.iterdir()):
+        # get content
+        post = frontmatter.load(file)
+        # convert to html
+        # add to dict
+        if post["image"]:
+            post_image_url = f"https://ortom.co.uk{post['image']}"
+        item = {
+            "postimage1": f""" <img src="{post_image_url }" alt={post['title']} """,
+            "posttext1": f"""{post['story_number']}. {post['title']}""",
+            "headingdivider1": "",
+            "postmaintext1": markdown2.markdown(post.content),
+            "postlink1": f'<a href="{post["link"]}" class="btn-read-more" style="text-decoration:none;">Read more</a>',
+            "postcount1": f"({post['word_count']})",
+            "whyimportant1": "Why is it important?",
+            "whyimportanttext1": post["important"],
+        }
+        # add to list
+        sections.append(item)
+
+    # make new campaign
+    # add content
+    # see https://mailchimp.com/developer/marketing/api/campaigns/add-campaign/
+    settings = {
+        "subject_line": subject_line,
+        "title": subject_line,
+        "from": "tom@ortom.ai",
+        "reply_to": "tom@ortom.ai",
+    }
+
+    client = MailchimpMarketing.Client()
+    client.set_config(
+        {"api_key": "bedadac524fa35f2ab16ee25340830d3-us6", "server": "us6"}
+    )
+    if not campaign_id:
+        campaign = client.campaigns.create(
+            {
+                "type": "regular",
+                "recipients": {"list_id": LIST_ID},
+                "settings": settings,
+            }
+        )
+        campaign_id = campaign["id"]
+
+    content = {"template": {"id": TEMPLATE_ID, "sections": {"repeat_1": sections}}}
+    client.campaigns.set_content(campaign_id, content)
 
 
 def main():
