@@ -17,6 +17,10 @@ import typer
 import mailchimp_marketing as MailchimpMarketing
 from mailchimp_marketing.api_client import ApiClientError
 import markdown2
+from dotenv import load_dotenv
+
+load_dotenv()
+mailchimp_key = os.environ.get("MAILCHIMP_API_KEY")
 
 
 def get_title(url):
@@ -272,13 +276,13 @@ def deploy(
     settings = {
         "subject_line": subject_line,
         "title": subject_line,
-        "from": "tom@ortom.ai",
+        "from_name": "Tom Liptrot",
         "reply_to": "tom@ortom.ai",
     }
 
     client = MailchimpMarketing.Client()
     client.set_config(
-        {"api_key": "bedadac524fa35f2ab16ee25340830d3-us6", "server": "us6"}
+        {"api_key": mailchimp_key, "server": "us6"}
     )
     if not campaign_id:
         campaign = client.campaigns.create(
