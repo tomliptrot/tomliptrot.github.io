@@ -18,6 +18,7 @@ import mailchimp_marketing as MailchimpMarketing
 from mailchimp_marketing.api_client import ApiClientError
 import markdown2
 from dotenv import load_dotenv
+from PIL import Image
 
 load_dotenv()
 mailchimp_key = os.environ.get("MAILCHIMP_API_KEY")
@@ -236,6 +237,27 @@ def redate(new_date):
         file.rename(issue_folder / title)
 
 
+def resize_images(issue_number=get_last_issue_number()):
+    image_folder = Path(f"assets/images/newsletter/issue_{issue_number}/")
+    for file in image_folder.iterdir():
+        im = Image.open(file)
+        width, height = im.size
+        if height > width / 2:
+            new_height = width / 2
+            height_to_crop = height - new_height
+            left = 0
+            right = width
+            top = height_to_crop / 2
+            bottom = height - (height_to_crop / 2)
+            image_out = im.crop((left, top, right, bottom))
+        else:
+            image_out = im
+
+        newsize = (1600, 800)
+        image_out = image_out.resize(newsize)
+        image_out.save(file)
+
+
 def deploy(
     subject_line=None,
     campaign_id=None,
@@ -281,9 +303,7 @@ def deploy(
     }
 
     client = MailchimpMarketing.Client()
-    client.set_config(
-        {"api_key": mailchimp_key, "server": "us6"}
-    )
+    client.set_config({"api_key": mailchimp_key, "server": "us6"})
     if not campaign_id:
         campaign = client.campaigns.create(
             {

@@ -1,72 +1,62 @@
----
-layout: default
+--- 
+layout: default 
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+    <header class="post-header">
+        <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+        <p class="post-meta">
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+      </time> {%- if page.author -%} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
           itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}
+            {%- endif -%}
+        </p>
+    </header>
+
+
+
+
+    {% if page.image %}
+
+    <img class="post-content img" src="{{ page.image | prepend: site.baseurl }}"> {% endif %} 
+    
+
+
+    <div class="post-content e-content" itemprop="articleBody">
+        {{ content }} 
+        {% if page.important %} 
+        <p>
+        🛎️ <strong>Why this matters:</strong> {{page.important}} 
     </p>
-  </header>
+        {% endif %}
+        
+        {% if page.link %}
 
-
-
-
-  {% if page.image %}
-  <img class="post-content img" src="{{ page.image | prepend: site.baseurl }}">
-  {% endif %}
-
-
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-    {% if page.link %}
-
-    <a href={{page.link}} target="_blank">
+        <a href={{page.link}} target="_blank">
       📖 Read more
       {% if page.word_count %}
       ({{page.word_count}} words)
       {% endif %}
-    </a>
-    📖
-    {% endif %}
-  </div>
+    </a> 📖 {% endif %}
+    </div>
 
-  <div class="PageNavigation">
-    {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">&laquo; Previous: {{page.previous.title}}</a>
-    {% endif %}
-    {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">Next: {{page.next.title}} &raquo;</a>
-    {% endif %}
-  </div>
+    <div class="PageNavigation">
+        {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">&laquo; Previous: {{page.previous.title}}</a> {% endif %} {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">Next: {{page.next.title}} &raquo;</a> {% endif %}
+    </div>
 
-  {%- if site.disqus.shortname -%}
-  {%- include disqus_comments.html -%}
-  {%- endif -%}
+    {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
 
-  <ul class="share-buttons">
-    <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fortom.co.uk&text=:%20http%3A%2F%2Fortom.co.uk&via=tom_liptrot"
-      target="_blank" title="Tweet"
-      onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img
-        alt="Tweet" src="/assets/images/simple_icons_black/Twitter.png" /></a>
-    <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fortom.co.uk&title=&summary=&source=http%3A%2F%2Fortom.co.uk"
-      target="_blank" title="Share on LinkedIn"
-      onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img
-        alt="Share on LinkedIn" src="/assets/images/simple_icons_black/LinkedIn.png" /></a>
-    <a href="mailto:?subject=&body=:%20http%3A%2F%2Fortom.co.uk" target="_blank" title="Send email"
-      onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img
-        alt="Send email" src="/assets/images/simple_icons_black/Email.png" /></a>
-  </ul>
+    <ul class="share-buttons">
+        <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fortom.co.uk&text=:%20http%3A%2F%2Fortom.co.uk&via=tom_liptrot" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img alt="Tweet" src="/assets/images/simple_icons_black/Twitter.png" /></a>
+        <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fortom.co.uk&title=&summary=&source=http%3A%2F%2Fortom.co.uk" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Share on LinkedIn" src="/assets/images/simple_icons_black/LinkedIn.png" /></a>
+        <a href="mailto:?subject=&body=:%20http%3A%2F%2Fortom.co.uk" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img alt="Send email" src="/assets/images/simple_icons_black/Email.png" /></a>
+    </ul>
 
 
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
