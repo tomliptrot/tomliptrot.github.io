@@ -106,6 +106,8 @@ def combine(
             post_image_url = f"https://ortom.co.uk{post['image']}"
             combined.append(f"![{post['title']}]({post_image_url})")
         combined.append(post.content)
+        if post.get("important"):
+            combined.append(f"🛎️ **Why this matters:**{post['important']}")
         if post.get("word_count"):
             link = f"[📖 Read more ({post['word_count']} words)📖]({post['link']})\n"
         else:
@@ -283,7 +285,9 @@ def deploy(
             "postimage1": f""" <img src="{post_image_url }" alt={post['title']} """,
             "posttext1": f"""{post['story_number']}. {post['title']}""",
             "headingdivider1": "",
-            "postmaintext1": markdown2.markdown(post.content),
+            "postmaintext1": markdown2.markdown(
+                post.content, extras=["fenced-code-blocks"]
+            ),
             "postlink1": f'<a href="{post["link"]}" class="btn-read-more" style="text-decoration:none;">Read more</a>',
             "postcount1": f"({post['word_count']})",
             "whyimportant1": "Why is it important?",

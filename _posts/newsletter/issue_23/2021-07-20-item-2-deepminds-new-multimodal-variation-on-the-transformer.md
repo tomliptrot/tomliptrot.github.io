@@ -10,7 +10,7 @@ title: Deepmind's new multimodal variation on the Transformer
 word_count: 11,122
 ---
 
-A new modification the the transformer model has been developed to allow usage on raw images, audio and video data.
+A new modification to the transformer model has been developed to allow usage on raw images, audio and video data.
 
 Transformers are great for NLP tasks, but there is a problem with scale as the size of the input grows. This is fine for language, where a length of about 1,000 is OK for many tasks, but for images, video and audio, the input data size tends to be much larger. This is typically overcome by using architectures specifically designed for the type of data, such as convolutions, that take advantage of out knowledge of the stricture of the data.
 

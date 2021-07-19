@@ -12,7 +12,7 @@ word_count: 1,026
 
 Some common tasks in python are harder than they need to be.
 
-[Pydash](https://pydash.readthedocs.io/en/latest/index.html) is a nice library that attempt to plug some of those gaps
+[Pydash](https://pydash.readthedocs.io/en/latest/index.html) is a nice library that attempts to plug some of those gaps as in these examples:
 
 ```python
 import pydash
