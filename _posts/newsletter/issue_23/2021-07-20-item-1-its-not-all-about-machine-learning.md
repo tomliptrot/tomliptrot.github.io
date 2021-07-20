@@ -10,10 +10,10 @@ title: It's not all about machine learning
 word_count: 4,979
 ---
 
-Early stage start-ups tend not to use data to drive decisions because they don't have any yet.  Once they get some, making the transition to being a data driven organisation can be hard. 
+Early stage start-ups tend not to use data to drive decisions because they don't have much.  Once they get some, making the transition to being a data driven organisation can be hard. 
 
-[Erik Bernhardsson](https://www.linkedin.com/in/erikbern/) has written a [short story](https://erikbern.com/2021/07/07/the-data-team-a-short-story.html) written in the second person, a bit like a choose your own adventure ("You are in a room, there is an axe"). Telling the tale of growing a data team at a mid-stage startup. 
+[Erik Bernhardsson](https://www.linkedin.com/in/erikbern/) has written a [short story](https://erikbern.com/2021/07/07/the-data-team-a-short-story.html) written in the second person, a bit like a Choose Your Own Adventure ("You are in a room, there is an axe"). Telling the tale of growing a data team at a mid-stage startup. 
 
-You arrive to find a fragmented picture with various teams having this down "data scientists". The core team is disillusioned as they are not getting to do any cool ML. Management its excited because they want to do cool AI. What actually needs to happen is months of data cleaning, integration, SQL and infrastructure work.
+You arrive to find a fragmented picture with various teams having their own "data scientists". The core team is disillusioned as they are not getting to do any cool ML. Management is excited because it wants to do cool AI. What actually needs to happen is months of data cleaning, integration, SQL and infrastructure work.
 
-You get to work, reorganising the team so that resource management is decentralised and people management is centralised (by you). You sort out that data, creating a single unified data source. Some of your data scientists leave. You start to get the basics right, the company starts to learn from data. After a year or so you start to implement some cool ML stuff.
+You get to work, reorganising the team so that resource management is decentralised and people management is centralised. You sort out that data, creating a single unified data warehouse. Some of your data scientists leave. You start to get the basics right, the company starts to learn from data. After a year or so you start to implement some fancy ML.

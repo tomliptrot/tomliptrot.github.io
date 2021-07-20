@@ -10,7 +10,7 @@ title: 'Pydash: a useful bunch of Python tools'
 word_count: 1,026
 ---
 
-Some common tasks in python are harder than they need to be.
+Some common tasks in Python are harder than they need to be.
 
 [Pydash](https://pydash.readthedocs.io/en/latest/index.html) is a nice library that attempts to plug some of those gaps as in these examples:
 

@@ -183,6 +183,15 @@
         }
         /* Literal.String.Heredoc */
         
+        .codehilite {
+            background-color: #eae9e5;
+            word-wrap: break-word;
+            box-decoration-break: clone;
+            border-radius: .2rem;
+            display: block;
+            padding: 10px 20px;
+        }
+        
         .codehilite .si {
             color: #a31515
         }
@@ -806,10 +815,26 @@ body, table, td,a{font-family: 'Lato', Arial, sans-serif!important;}
                                                     <br><br> This problem involves predicting the 3D shape of millions of proteins from their chemical structure. It has been an unsolved problem for biologists and computer scientists for decades and solving
                                                     it one of the most practical and impressive applications of Deepmind's technology to date.
                                                     <br><br>
-                                                    <div class="codehilite"><pre><span></span><code><span class="k">if</span> <span class="kc">True</span><span class="p">:</span> 
-                                                        <span class="nb">print</span> <span class="s2">&quot;hello&quot;</span>
-                                                        <br><br>
-                                                    </code></pre></div>This article offers a nice exploration of the problem and explains why solving it is both hard and important.
+
+
+                                                    <div class="codehilite"> <pre><code><span class="kn">import</span> <span class="nn">pydash</span>
+
+<span class="c1"># Arrays</span>
+<span class="n">pydash</span><span class="o">.</span><span class="n">flatten</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">]]]])</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">]]]</span>
+
+<span class="n">pydash</span><span class="o">.</span><span class="n">flatten_deep</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">]]]])</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">]</span>
+    
+    <span class="c1"># Collections</span>
+    <span class="n">pydash</span><span class="o">.</span><span class="n">map_</span><span class="p">([{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;moe&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">40</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;larry&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">50</span><span class="p">}],</span> <span class="s1">&#39;name&#39;</span><span class="p">)</span>
+    <span class="p">[</span><span class="s1">&#39;moe&#39;</span><span class="p">,</span> <span class="s1">&#39;larry&#39;</span><span class="p">]</span>
+    
+    <span class="c1"># Functions</span>
+    <span class="n">curried</span> <span class="o">=</span> <span class="n">pydash</span><span class="o">.</span><span class="n">curry</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">:</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span><span class="p">)</span>
+    <span class="n">curried</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)(</span><span class="mi">3</span><span class="p">)</span>
+    </code></pre></div>
+                                                    </div>This article offers a nice exploration of the problem and explains why solving it is both hard and important.
                                                     <br><br> "Between protein folding and CRISPR, genetic engineering now has two very powerful new tools in its toolbox. Maybe the 2020s will be to biotech what the 1970s were to computing."
                                                 </td>
                                             </tr>
