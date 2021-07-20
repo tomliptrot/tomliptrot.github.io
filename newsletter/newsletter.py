@@ -289,7 +289,7 @@ def deploy(
                 post.content, extras=["fenced-code-blocks"]
             ),
             "postlink1": f'<a href="{post["link"]}" class="btn-read-more" style="text-decoration:none;">Read more</a>',
-            "postcount1": f"({post['word_count']})",
+            "postcount1": f"({post['word_count']} words)",
             "whyimportant1": "Why is it important?",
             "whyimportanttext1": post["important"],
         }

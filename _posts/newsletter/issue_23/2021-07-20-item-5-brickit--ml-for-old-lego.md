@@ -13,5 +13,3 @@ word_count: '225'
 Do you have loads of old Lego? Can't think what to make with it? Worry no more!
 
 [Brickit](https://www.producthunt.com/posts/brickit) is a new app (for iOS only) that allows you to point your camera at an old pile of Lego bricks. It will identify what types of bricks you have and suggest models you can build based on this. The brick identification uses machine learning to identify and classify each brick.
-
-🛎️ **Why this matters:** A fun application of ML - no need for tiresome use of your imagination!
