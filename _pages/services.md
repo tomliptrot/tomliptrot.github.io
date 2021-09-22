@@ -2,6 +2,7 @@
 layout: page
 title: Services
 permalink: /services/
+redirect_to: https://www.ortom.ai/services
 ---
 
 Ortom provides a range of services, including but not limited to consultancy, contracts and training and recruitment.

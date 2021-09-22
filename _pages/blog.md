@@ -2,6 +2,7 @@
 layout: page
 title: Blog
 permalink: /blog/
+redirect_to: https://www.ortom.ai/journal
 ---
 
 <!-- try this https://jekyllrb.com/docs/pagination/ -->

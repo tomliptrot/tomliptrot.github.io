@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Home
 layout: home
+redirect_to: https://www.ortom.ai/
 ---
 {: .center}
 ![Ortom](/assets/images/ortom/Ortom logo transparent1.png)
